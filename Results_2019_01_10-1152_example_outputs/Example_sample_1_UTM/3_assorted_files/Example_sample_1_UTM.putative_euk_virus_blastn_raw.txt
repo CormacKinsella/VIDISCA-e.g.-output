@@ -1,0 +1,62 @@
+2TBY5:00068:00677	LT906463	97.297	222	223	5	1	345604	345824	2.16e-100	375	Haemophilus pittmaniae strain NCTC13334 genome assembly, chromosome: 1
+2TBY5:00151:01819	CP011011	79.474	380	393	78	0	909984	910363	1.98e-68	270	Pseudoalteromonas agarivorans DSM 14585 chromosome I, complete sequence
+2TBY5:00170:00936	AC098583	100.000	234	236	0	0	49859	50092	1.35e-117	433	Homo sapiens BAC clone RP11-10G12 from 4, complete sequence
+2TBY5:00289:00768	AE015929	98.859	263	269	0	3	2346044	2345785	1.55e-127	466	Staphylococcus epidermidis ATCC 12228, complete genome
+2TBY5:00289:02516	AP006716	100.000	167	169	0	0	2464724	2464558	1.59e-80	309	Staphylococcus haemolyticus JCSC1435 DNA, complete genome
+2TBY5:00304:01473	Z83841	100.000	242	244	0	0	48177	47936	5.01e-122	448	Human DNA sequence from clone RP3-323B6 on chromosome Xq11-12, complete sequence
+2TBY5:00339:01254	AE015929	100.000	260	262	0	0	2346044	2345785	5.36e-132	481	Staphylococcus epidermidis ATCC 12228, complete genome
+2TBY5:00438:01336	AC107928	98.361	183	184	1	2	136026	136206	8.16e-84	320	Homo sapiens chromosome 11, clone RP11-412L22, complete sequence
+2TBY5:00449:02267	AL513263	99.643	280	282	1	0	95820	95541	2.07e-141	512	Human DNA sequence from clone CTB-1189H8 on chromosome 1 Contains the 3' end of the SYT14 gene for synaptotagmin XIV, complete sequence
+2TBY5:00631:02869	CP024443	99.189	370	371	2	1	1096803	1096434	0.0	665	Moraxella osloensis strain NP7 chromosome, complete genome
+2TBY5:00673:02262	LT906463	97.758	223	224	5	0	345604	345826	3.61e-103	385	Haemophilus pittmaniae strain NCTC13334 genome assembly, chromosome: 1
+2TBY5:00714:02804	XM_011215562	83.981	206	218	31	2	291	494	1.76e-46	196	PREDICTED: Bactrocera dorsalis uncharacterized LOC105233465 (LOC105233465), partial mRNA
+2TBY5:00738:00985	CP000082	90.000	240	250	24	0	804510	804271	7.05e-81	311	Psychrobacter arcticus 273-4, complete genome
+2TBY5:00929:03259	CP007145	77.132	258	346	57	2	1924907	1924651	8.41e-32	148	Hymenobacter swuensis DY53, complete genome
+2TBY5:01043:03130	CP014236	100.000	272	274	0	0	42530	42801	1.20e-138	503	Moraxella osloensis strain CCUG 350 plasmid unnamed3, complete sequence
+2TBY5:01046:01014	AC275687	98.990	396	395	0	4	57637	57244	0.0	706	Pan troglodytes chromosome 19 clone CH251-349D9, complete sequence
+2TBY5:01100:02923	CP013342	94.907	216	220	11	0	674180	674395	2.79e-89	339	Sphingopyxis terrae NBRC 15098 strain 203-1, complete genome
+2TBY5:01142:03084	AC018694	99.617	261	263	1	0	111996	112256	6.97e-131	477	Homo sapiens BAC clone RP11-563P16 from 11, complete sequence
+2TBY5:01184:01613	AM946981	100.000	239	241	0	0	3642904	3643142	2.30e-120	442	Escherichia coli BL21(DE3), complete genome
+2TBY5:01678:02657	DQ889451	97.936	436	438	9	0	25157	24722	0.0	756	Streptococcus salivarius plasmid pSsal-K12 SalA (salA2), SalM (salM), SalT (salT), SalX (salX), SalY (salY), SalK (salK), SalR (salR), SboK (sboK), SboR (sboR), SboA (sboA), SboM (sboM), SboT (sboT), SboF (sboF), SboE (sboE), and SboG (sboG) genes, complete cds; and unknown genes
+2TBY5:01698:02496	AP009048	99.541	218	223	0	1	698574	698357	1.66e-106	396	Escherichia coli str. K-12 substr. W3110 DNA, complete genome
+2TBY5:01727:02820	AP014956	86.197	355	368	47	2	1242226	1242578	2.27e-102	383	Staphylococcus capitis DNA, complete genome, strain: TW2795
+2TBY5:01754:01226	CP024180	95.495	333	335	14	1	2129057	2128725	6.90e-147	531	Moraxella osloensis strain KSH chromosome, complete genome
+2TBY5:01907:03000	CP014107	98.881	268	270	3	0	1803514	1803247	2.00e-131	479	Staphylococcus hominis strain FDAARGOS_136 chromosome, complete genome
+SPIKE:1	AF009606	100.000	314	314	0	0	1643	1956	6.28e-162	580	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:19	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:20	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:21	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:22	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:23	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:24	AF009606	100.000	521	521	0	0	1961	2481	0.0	963	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:269	AF009606	100.000	331	331	0	0	2486	2816	2.36e-171	612	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:281	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:282	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:283	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:284	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:285	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:286	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:287	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:295	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:298	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:299	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:302	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:303	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:304	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:305	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:306	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:307	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:309	AF009606	99.698	331	330	0	1	2486	2816	3.94e-169	604	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:310	AF009606	99.698	331	331	1	0	2486	2816	1.10e-169	606	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:335	AF009606	99.396	331	331	2	0	2486	2816	5.11e-168	601	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:351	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:352	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:353	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:356	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:357	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:361	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:362	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:363	AF009606	99.094	331	330	2	1	2486	2816	8.53e-166	593	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:366	AF009606	99.390	328	330	2	0	2489	2816	2.37e-166	595	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:367	AF009606	99.396	331	331	2	0	2486	2816	5.11e-168	601	Hepatitis C virus subtype 1a polyprotein gene, complete cds
+SPIKE:8	AF009606	99.682	314	313	0	1	1643	1956	1.05e-159	573	Hepatitis C virus subtype 1a polyprotein gene, complete cds

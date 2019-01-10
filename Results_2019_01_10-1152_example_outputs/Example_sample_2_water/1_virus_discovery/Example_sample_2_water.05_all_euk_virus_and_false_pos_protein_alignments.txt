@@ -1,0 +1,1629 @@
+/home/kinsella/VIDISCA_analysis_pipeline_v20181113/programmes/usearch10.0.24_linux32 -ublast Example_sample_2_water.clustered_non_rRNA.fas -db /scratch/blast_db/EukViPrRef_95.udb -evalue 1e-4 -accel 0.8 -maxhits 1 -mincodons 15 -blast6out Example_sample_2_water.euk_ublast_table_unfiltered.txt -alnout Example_sample_2_water.05_all_euk_virus_and_false_pos_protein_alignments.txt -matched Example_sample_2_water.putative_euk_viral_unfiltered.fas -notmatched Example_sample_2_water.check_for_phages.fas -threads 1 
+usearch v10.0.240_i86linux32, 4.0Gb RAM (65.9Gb total), 16 cores
+
+Query >2TBY5:00090:01037
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   202      2e-15   45%     -3          3-242(8)    1025-1104(923)  AGC25937.1 hypothetical protein, partial [Piper DNA virus 1]
+
+ Query  250nt >2TBY5:00090:01037
+Target 2027aa >AGC25937.1 hypothetical protein, partial [Piper DNA virus 1]
+
+Qry  242 DDVPKTAITTPFGLFEFPYMGFGLRNAGQTFQRFIDDVLSDLDFCFAYIDDIIIFSKSHEEHLTHVRTVFRRLSEQGILV 3
+         :| | || | | ||||.  : |||:||   ||||.| .    :||  |||||:: | . :||: |.  ||: : | ||.:
+Tgt 1025 EDRPWTAFTCPEGLFEWNVLSFGLKNAPAIFQRFMDSLFKKYEFCIVYIDDILVASDTVQEHIKHLELVFKTIKEAGIVI 1104
+
+Frame -3, 80 cols, 36 ids (45.0%), 0 gaps (0.0%), score 202.0 (82.4 bits), Evalue 1.6e-15
+
+Query >2TBY5:00093:02135
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   301      8e-27   48%     +2        38-400(11)        5-129(312)  AAN04366.1 glycine hydroxymethyltransferase [Heliothis zea nudivirus]
+
+ Query 411nt >2TBY5:00093:02135
+Target 441aa >AAN04366.1 glycine hydroxymethyltransferase [Heliothis zea nudivirus]
+
+Qry  38 QKDTVVFDIIRKELERQRRGIELIASENFTSLQVMQAMGNVMTNKYAEGYPGRRYYGGCEIVDQTEQLAIDRLKAIFGIE 277
+        : |  .: :: .| :||| |:|||||||||.| | : | . : |||.|| ||:||||| | :|. | ||  |    | : 
+Tgt   5 ETDPELYALVEQEADRQRAGLELIASENFTTLPVRECMSSCLINKYSEGRPGKRYYGGNEFIDRIELLAQQRCLRAFNLN 84
+
+Qry 278 YAN----VQPHSGAQANAAVMLAILQPGDDILGLDLSMGGHLTHG 400
+         .     |||:||. || ||   |..|   |:||||  |||||||
+Tgt  85 ESEWGVCVQPYSGSMANFAVYTGIVKPHGRIMGLDLPDGGHLTHG 129
+
+Frame +2, 125 cols, 60 ids (48.0%), 4 gaps (3.2%), score 301.0 (120.6 bits), Evalue 8.1e-27
+
+Query >2TBY5:00121:01778
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   116      7e-06   61%     -3        3-116(176)     312-349(1158)  YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]
+
+ Query  292nt >2TBY5:00121:01778
+Target 1507aa >YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]
+
+Qry  116 MKSLSDLLKGKSGRFRQNLLGKRVDYSGRSVIVVGPDL 3
+         :||: : | ||.|| | ||:||||||| ||||   | |
+Tgt  312 LKSIKERLNGKTGRVRGNLMGKRVDYSARSVITPDPQL 349
+
+Frame -3, 38 cols, 23 ids (60.5%), 0 gaps (0.0%), score 116.0 (49.3 bits), Evalue 6.9e-06
+
+Query >2TBY5:00156:01093
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   117      9e-06   37%     +1         1-186(14)        34-95(138)  YP_002333624.1 recombinase [Abalone shriveling syndrome-associated virus]
+
+ Query 200nt >2TBY5:00156:01093
+Target 233aa >YP_002333624.1 recombinase [Abalone shriveling syndrome-associated virus]
+
+Qry   1 IKEIGCERIFEDKASGSNSQRKGLDDCLNYLRKGDVLVVLDLDRLGRLASDLIKLIDELAEK 186
+        : . ||..|| :| ||.  .:  |   :. |.||||.||  ||||||     :: |:::  |
+Tgt  34 LNKAGCKQIFYEKISGAKDKKVELGKLISVLQKGDVVVVAHLDRLGRNLVTTLRTIEQINNK 95
+
+Frame +1, 62 cols, 23 ids (37.1%), 0 gaps (0.0%), score 117.0 (49.7 bits), Evalue 9.2e-06
+
+Query >2TBY5:00206:01778
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   293      5e-26   64%     -2         3-260(22)         1-86(116)  CBZ06032.1 Maverick capsid-like p31.10 [Cotesia congregata bracovirus]_invertebrate_derived
+
+ Query 282nt >2TBY5:00206:01778
+Target 202aa >CBZ06032.1 Maverick capsid-like p31.10 [Cotesia congregata bracovirus]_invertebrate_derived
+
+Qry 260 MKQRAKGAGLINSTINALPFELHIPGGYNYCGPGTKLRERLARGDKPINTLDEACKEHDIAYSRTKD-LPSRLKADRVLA 24
+        | :  :| || |. || || |||||| | |||||||| .||||||  || || ||||||||||: :: | .| .||::||
+Tgt   1 MSESRRGKGLFNNIINKLPLELHIPG-YQYCGPGTKLAKRLARGDSGINPLDAACKEHDIAYSKNRENLEARHEADKILA 79
+
+Qry  23 EKAWKRF 3
+        ||||.||
+Tgt  80 EKAWQRF 86
+
+Frame -2, 87 cols, 56 ids (64.4%), 2 gaps (2.3%), score 293.0 (117.5 bits), Evalue 4.7e-26
+
+Query >2TBY5:00274:01267
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   150      2e-09   48%     -2          5-268(4)       86-195(162)  YP_009226241.1 hypothetical protein [Sulfolobus monocaudavirus SMV3]
+
+ Query 272nt >2TBY5:00274:01267
+Target 357aa >YP_009226241.1 hypothetical protein [Sulfolobus monocaudavirus SMV3]
+
+Qry 268 QTIQLFISPSLSSSSSSSSASPSSSSSSSSSSSSTSSSSTLSS----SSSTITTTVA--NTSSS----LSSSSSSLSLLP 59
+        | |   || | || | ||. |||||| ||||.||. |||. ||    |..| |.| |  ||||      |||.|| |  |
+Tgt  86 QQILQGISSSTSSQSQSSTPSPSSSSQSSSSASSSPSSSSQSSTPSPSTNTQTSTPASQNTSSQSSTPSSSSTSSTSSSP 165
+
+Qry  58 SSQP------------SSLDINSSLSVTTT 5
+         | |            ||   .|| | |||
+Tgt 166 PSTPSSSTPSPSSSSQSSSSASSSASTTTT 195
+
+Frame -2, 110 cols, 53 ids (48.2%), 22 gaps (20.0%), score 150.0 (62.4 bits), Evalue 1.9e-09
+
+Query >2TBY5:00285:02697
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   123      3e-06   37%     -2       40-273(100)      194-273(357)  YP_009001225.1 ABC2 type transporter superfamily protein [Pithovirus sibericum]
+
+ Query 373nt >2TBY5:00285:02697
+Target 630aa >YP_009001225.1 ABC2 type transporter superfamily protein [Pithovirus sibericum]
+
+Qry 273 VSGGQAQRAAIARALASGPKLLFADEPTGSLDEKNAHRAFGEIKNWCGSQGGHGLIVT-HDP--VIAKLCDRIVRL-DGG 46
+        ||||: .||.||  | | | |:| ||||  ||   |      ::    .  || .::| | |   :  | |:|. : :||
+Tgt 194 VSGGERKRASIANELVSSPSLIFLDEPTSGLDFSTARDCIQTLRQM--ANNGHTVLITIHQPSSTLFNLFDKILLMTEGG 271
+
+Qry  45 TI 40
+         :
+Tgt 272 FL 273
+
+Frame -2, 82 cols, 30 ids (36.6%), 6 gaps (7.3%), score 123.0 (52.0 bits), Evalue 3.2e-06
+
+Query >2TBY5:00495:01244
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   107      5e-05   86%     +3        21-83(331)        275-295(0)  YP_009329619.1 Kelch repeat and BTB domain-containing protein A55 [BeAn 58058 virus]
+
+ Query 414nt >2TBY5:00495:01244
+Target 295aa >YP_009329619.1 Kelch repeat and BTB domain-containing protein A55 [BeAn 58058 virus]
+
+Qry  21 PGAVAHSCNPSTLAGQGRWIT 83
+        ||||||.|||||| |.|||||
+Tgt 275 PGAVAHACNPSTLGGRGRWIT 295
+
+Frame +3, 21 cols, 18 ids (85.7%), 0 gaps (0.0%), score 107.0 (45.8 bits), Evalue 5.4e-05
+
+Query >2TBY5:00490:02981
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   120      8e-06   28%     -3        48-338(38)      746-860(642)  AEX61495.1 DNA-directed RNA polymerase subunit 1 [Megavirus courdo7]
+
+ Query  376nt >2TBY5:00490:02981
+Target 1502aa >AEX61495.1 DNA-directed RNA polymerase subunit 1 [Megavirus courdo7]
+
+Qry  338 NSIFMMADSGARGSAAQIRQLAGMRGLMAKPDGSIIET------PITA--------------NFREGLNVLQYFISTHGA 159
+         | ::.   ||. |.|    |:||  | .   |  | .       |. |              .|  ||| :::|      
+Tgt  746 NGLYIAISSGSSGTAMNAAQIAGCIGQVIVEDKRIQKRFNNRTLPMFAQHDDSPSARGFCFGSFISGLNPMEFFFQVMAG 825
+
+Qry  158 RKGLADTALKRLNSGYLTRRLVDVAQDLVVTEDDCGT 48
+         |.|: .||:|  ..||: |:|| . :|: |  |  ||
+Tgt  826 REGIINTAIKTADTGYIQRKLVKMLEDIKVEYD--GT 860
+
+Frame -3, 117 cols, 33 ids (28.2%), 22 gaps (18.8%), score 120.0 (50.8 bits), Evalue 7.8e-06
+
+Query >2TBY5:00563:01766
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   157      2e-10   47%     +1          1-174(1)       153-210(39)  YP_004940123.1 uracil-DNA glycosylase [Aotine betaherpesvirus 1]
+
+ Query 175nt >2TBY5:00563:01766
+Target 249aa >YP_004940123.1 uracil-DNA glycosylase [Aotine betaherpesvirus 1]
+
+Qry   1 ITVRAGAPQSHQGLGWQRFTDEVFRIINKEKEHVVFMLWGSSARAKRREIDENKHLVL 174
+         ||  | | ||. ||||. .: : | :.  :||.||||||  |..:   ||.||||:|
+Tgt 153 FTVVRGKPGSHRHLGWQQLSERIIRRLSTHREHLVFMLWGVDAQSREYLIDKNKHLIL 210
+
+Frame +1, 58 cols, 27 ids (46.6%), 0 gaps (0.0%), score 157.0 (65.1 bits), Evalue 1.9e-10
+
+Query >2TBY5:00609:01414
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   161      1e-10   56%     +1        97-237(46)       95-144(118)  AHA54204.1 hypothetical protein [Emiliania huxleyi virus 18]
+
+ Query 283nt >2TBY5:00609:01414
+Target 262aa >AHA54204.1 hypothetical protein [Emiliania huxleyi virus 18]
+
+Qry  97 HHYNLLLHCNRHIHRHH---RHHRHCHHYHRRHFHHRHFDHHVHHHHLLR 237
+        ||:  | | . | | ||   ||||| | :| |  ||||  | |||||| |
+Tgt  95 HHHRHLHHRHLHHHLHHHPRRHHRHRHRHHHRPRHHRHHHHQVHHHHLHR 144
+
+Frame +1, 50 cols, 28 ids (56.0%), 3 gaps (6.0%), score 161.0 (66.6 bits), Evalue 1e-10
+
+Query >2TBY5:00750:02735
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   188      9e-14   52%     +1         76-318(7)          5-89(98)  YP_009448213.1 3'5'-cyclic nucleotide phosphodiesterase [Orpheovirus IHUMI-LCC2]
+
+ Query 325nt >2TBY5:00750:02735
+Target 187aa >YP_009448213.1 3'5'-cyclic nucleotide phosphodiesterase [Orpheovirus IHUMI-LCC2]
+
+Qry  76 QIVLKACAFGDQAHI----KDKRKSGEPYITHPIAVAEILGSFRM--DVDTIVAAILHDTVEDTPTTEEDLTREFGKAVA 297
+        |::.||  |    ||    ||| ||  ||| ||: |  || |     ||. :|||:|||||||| || |:| :|||. :|
+Tgt   5 QLIVKASNFAAIKHINQRRKDKNKS--PYINHPLGVTNILTSEGQIFDVNVLVAALLHDTVEDTDTTFEELKKEFGEKIA 82
+
+Qry 298 QIVNGVT 318
+         ||  ||
+Tgt  83 NIVMEVT 89
+
+Frame +1, 87 cols, 45 ids (51.7%), 8 gaps (9.2%), score 188.0 (77.0 bits), Evalue 8.8e-14
+
+Query >2TBY5:00843:01492
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   132      2e-07   33%     +1          1-291(2)       22-120(300)  AET42504.1 hypothetical protein [Emiliania huxleyi virus 202]
+
+ Query 293nt >2TBY5:00843:01492
+Target 420aa >AET42504.1 hypothetical protein [Emiliania huxleyi virus 202]
+
+Qry   1 ITGSAGAGKTYTINQYLHYLRARECGGGGDGKHRH---AATHMNGMTIHSWAGIGISNELTAKDIARIKKRTVVVERIER 231
+        |.|||| ||.:     :  |: .. |    |       ||...|| |||.|||||| .   .  | : :       | . 
+Tgt  22 ISGSAGTGKSFLTRHIIRQLKQQK-GTNNVGVVASTGIAASNINGTTIHAWAGIGIGDGEASALIKKARGNRPAFTRWKT 100
+
+Qry 232 TKVLVIDEISMLHRQQFELI 291
+         : |:|||:|||    |  :
+Tgt 101 ARALIIDEVSMLDGDLFNKL 120
+
+Frame +1, 100 cols, 33 ids (33.0%), 4 gaps (4.0%), score 132.0 (55.5 bits), Evalue 2.5e-07
+
+Query >2TBY5:00884:01897
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   142      1e-08   46%     +3        3-173(150)      353-409(113)  YP_007354211.1 hypothetical protein [Acanthamoeba polyphaga moumouvirus M10A]
+
+ Query 323nt >2TBY5:00884:01897
+Target 522aa >YP_007354211.1 hypothetical protein [Acanthamoeba polyphaga moumouvirus M10A]
+
+Qry   3 KRVKNTAIKLIDFGSATFDDEHHSTIVSTRHYRAPEVILELGWNQTCYVWSIGCILF 173
+        | :||  | |||||.. |  .     :  | ||||||||:| :.  | |||: |:.|
+Tgt 353 KYIKNCEIALIDFGNSYFFSKRTRNEIQDRRYRAPEVILDLNYSYGCDVWSVACVVF 409
+
+Frame +3, 57 cols, 26 ids (45.6%), 0 gaps (0.0%), score 142.0 (59.3 bits), Evalue 1e-08
+
+Query >2TBY5:01014:02202
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   121      5e-06   34%     +3          9-287(1)      241-322(142)  YP_008438720.1 adenosylhomocysteinase [Pandoravirus salinus]
+
+ Query 288nt >2TBY5:01014:02202
+Target 464aa >YP_008438720.1 adenosylhomocysteinase [Pandoravirus salinus]
+
+Qry   9 GTDMLLAGRRALVIGYGDVGKGSAQSLRQEGMVVRVTEADPICGMQACMDGYELVSPFVEGDPAKGVNNTLMQDTDLVVT 248
+         |.  | ||  .|:||| ||:| |   |  |  | |||  ||  ::| |:|:| |    |           ..  | |:|
+Tgt 241 ATNCTLRGRVIVVVGYGHVGRGLAAQARGMGARVIVTEHSPIAALEAHMEGFE-VMRLAEA----------VKSADFVIT 309
+
+Qry 249 TTGNYHVCNSDML 287
+         ||      .| :
+Tgt 310 ATGYPRALRADAI 322
+
+Frame +3, 93 cols, 32 ids (34.4%), 11 gaps (11.8%), score 121.0 (51.2 bits), Evalue 4.6e-06
+
+Query >2TBY5:01074:01052
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   138      4e-08   41%     +1         4-213(11)       314-381(12)  AGF85453.1 hypothetical protein [Moumouvirus goulette]
+
+ Query 224nt >2TBY5:01074:01052
+Target 393aa >AGF85453.1 hypothetical protein [Moumouvirus goulette]
+
+Qry   4 KNHNQKKKPEQKVEEEPEDEDEDEDEKEKKEPKPKKSKKKKKLDEQEDEVEKPEDEEEDKKGKKGVKPKN 213
+        .    ||  ..|| ||||||:|:|:. . |.   |||||  |  .   .||  |:|||:.. .. |||| 
+Tgt 314 EEKQNKKSSKKKVVEEPEDEEEEEEKPKSKKKDDKKSKKPVK--KPSKKVESEEEEEEEEEEEEVVKPKK 381
+
+Frame +1, 70 cols, 29 ids (41.4%), 2 gaps (2.9%), score 138.0 (57.8 bits), Evalue 3.8e-08
+
+Query >2TBY5:01184:02730
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   258      5e-22   49%     -3          2-259(2)      412-497(587)  YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]
+
+ Query  261nt >2TBY5:01184:02730
+Target 1084aa >YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]
+
+Qry  259 NTDKPVLYYPLDAWFIKTTAVKDQMVALNKTIKLEPKSTGEGRFGNWLENMVDWNLSRSRYWGTPLPIWRTEDGGEEICI 20
+          || |.:|  . ..||| |.:||.||  || :   |.. | |||  |:||  || .||||:.|||:|:| .:|| | :|:
+Tgt  412 RTDTPLIYKAVSSFFIKVTSIKDKMVVNNKKVNWVPENIGTGRFKQWIENAKDWGVSRSRFFGTPIPVWVSDDGQEMVCV 491
+
+Qry   19 GSITEL 2
+         ||| ||
+Tgt  492 GSIDEL 497
+
+Frame -3, 86 cols, 42 ids (48.8%), 0 gaps (0.0%), score 258.0 (104.0 bits), Evalue 5.4e-22
+
+Query >2TBY5:01187:02714
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   114      2e-05   43%     +3         15-161(2)      409-457(375)  BAD00047.1 Fusion protein, Feo [Hepacivirus C]
+
+ Query 163nt >2TBY5:01187:02714
+Target 832aa >BAD00047.1 Fusion protein, Feo [Hepacivirus C]
+
+Qry  15 GKTIFKEYYAQPEATAKALEPEGWLHTGDSGYQDADGYFYFVDRRCNMI 161
+        |  |   |   ||||   :: :||||.||  | | | :|: |||  .:|
+Tgt 409 GPMIMSGYVNNPEATNALIDKDGWLHSGDIAYWDEDEHFFIVDRLKSLI 457
+
+Frame +3, 49 cols, 21 ids (42.9%), 0 gaps (0.0%), score 114.0 (48.5 bits), Evalue 1.6e-05
+
+Query >2TBY5:01297:01705
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   119      8e-06   41%     -3        57-278(50)       96-170(139)  AGE59860.1 hypothetical protein [Acanthocystis turfacea Chlorella virus TN603.4.2]
+
+ Query 328nt >2TBY5:01297:01705
+Target 309aa >AGE59860.1 hypothetical protein [Acanthocystis turfacea Chlorella virus TN603.4.2]
+
+Qry 278 QMMASKMGGMDPSK-MGGLGGLGGMGGQNPFGGQNPFGGMGGQSPFGGFGSKNNNGGKF---GTTIDGQAKTVNSNAK 57
+        .|     |||     :|| ||:|||||. | ||      |||.   || | |   |||    |      | || . ||
+Tgt  96 KMALGGTGGMGGKMTLGGKGGMGGMGGKKPMGGMGGKKPMGGKMALGGTGGK---GGKMALGGAAAAAAAATVATVAK 170
+
+Frame -3, 78 cols, 32 ids (41.0%), 7 gaps (9.0%), score 119.0 (50.4 bits), Evalue 8.1e-06
+
+Query >2TBY5:01421:01626
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   119      5e-06   39%     +1         28-198(5)         1-57(537)  AGE55786.1 glucosamine--fructose-6-phosphate aminotransferase [Acanthocystis turfacea Chlorella virus MN0810.1]
+
+ Query 203nt >2TBY5:01421:01626
+Target 594aa >AGE55786.1 glucosamine--fructose-6-phosphate aminotransferase [Acanthocystis turfacea Chlorella virus MN0810.1]
+
+Qry  28 MCGIVGILGRGPVADLLVDSLKRLEYRGYDSAGVATLEGAHLERRRAEGKLRNLEAR 198
+        |||| ||:       : :|.:.:|||||||| |||  :   |.| |.   :: |  :
+Tgt   1 MCGIFGIISNSSAVKISIDAIEKLEYRGYDSCGVAFYDNDSLKRIRSIDGIKELRCK 57
+
+Frame +1, 57 cols, 22 ids (38.6%), 0 gaps (0.0%), score 119.0 (50.4 bits), Evalue 4.7e-06
+
+Query >2TBY5:01490:00806
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   225      4e-18   77%     +3        3-161(110)        40-92(448)  YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]
+
+ Query 271nt >2TBY5:01490:00806
+Target 540aa >YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]
+
+Qry   3 KSYLLKLDPYINVDPGTMSPFQHGEVFVTDDGAETDLDLGHYERFIRVTMGKK 161
+        |  :||:||||||||||||| ||||||||||||||||||||||||  .|: :.
+Tgt  40 KIAMLKMDPYINVDPGTMSPTQHGEVFVTDDGAETDLDLGHYERFTSLTLKRE 92
+
+Frame +3, 53 cols, 41 ids (77.4%), 0 gaps (0.0%), score 225.0 (91.3 bits), Evalue 3.7e-18
+
+Query >2TBY5:01530:01111
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   112      3e-05   35%     -3          3-173(2)      271-327(452)  YP_009133212.1 rr1 [Lambdina fiscellaria nucleopolyhedrovirus]
+
+ Query 175nt >2TBY5:01530:01111
+Target 779aa >YP_009133212.1 rr1 [Lambdina fiscellaria nucleopolyhedrovirus]
+
+Qry 173 KLFQAAVKSCSQGGVRGGAATLFYPLWHLEVESLLVLKNNRGVEENRIRHLDYGVQI 3
+        :.|  ||:   ||| | ||| ::   || :: ..| |: | | |:.: | | :|. :
+Tgt 271 RVFNNAVRHVDQGGKRKGAAAIYLEPWHADIYAVLNLRRNMGCEDSKARDLFFGLWV 327
+
+Frame -3, 57 cols, 20 ids (35.1%), 0 gaps (0.0%), score 112.0 (47.8 bits), Evalue 3e-05
+
+Query >2TBY5:01655:00731
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   275      6e-24   53%     -1          3-275(6)       58-148(614)  YP_009408000.1 Ribonucleotide reductase large subunit [Eptesipox virus]
+
+ Query 281nt >2TBY5:01655:00731
+Target 762aa >YP_009408000.1 Ribonucleotide reductase large subunit [Eptesipox virus]
+
+Qry 275 NLAAETAASLTVKHPDYALLASRIAVSNLHKNTTKRFSKVMQQLYECTDTKTGKHLPLLADDVWQIIQDNAELLDSTIIY 36
+        |||.| .|.:| ||||||.||.|||:||||| | | || |.  ||   .  | || |:..: |: |: :| ::|.|.|||
+Tgt  58 NLASEISATMTTKHPDYAVLAARIAISNLHKETKKNFSDVIIDLYNYINPYTNKHAPMVSETVYNIVMENKDILNSSIIY 137
+
+Qry  35 DRDYGFDYFGF 3
+        |||: :.||||
+Tgt 138 DRDFSYNYFGF 148
+
+Frame -1, 91 cols, 48 ids (52.7%), 0 gaps (0.0%), score 275.0 (110.5 bits), Evalue 6.2e-24
+
+Query >2TBY5:01657:01619
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   140      3e-08   42%     +3       21-203(124)       298-359(20)  AAT99858.1 unknown [Diachasmimorpha longicaudata entomopoxvirus]
+
+ Query 327nt >2TBY5:01657:01619
+Target 379aa >AAT99858.1 unknown [Diachasmimorpha longicaudata entomopoxvirus]
+
+Qry  21 FLVCSDVAARGLDVSAVSHVFNYDVPNNPDDYVHRVGRTGRAGMSGRAWTLCSEED-DKLVD 203
+         |. ... |||:||  :| | |||.|.| :.|:||:||.|| |  | |    .|::  || :
+Tgt 298 ILLSTNLLARGIDVQQISLVINYDLPHNRENYIHRIGRSGRFGRKGIAINFITEDELPKLAE 359
+
+Frame +3, 62 cols, 26 ids (41.9%), 1 gaps (1.6%), score 140.0 (58.5 bits), Evalue 3.2e-08
+
+Query >2TBY5:01689:02960
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   187      1e-13   43%     +1         1-252(37)       377-474(22)  YP_007673261.1 replicative DNA helicase [Tetraselmis viridis virus S20]
+
+ Query 289nt >2TBY5:01689:02960
+Target 496aa >YP_007673261.1 replicative DNA helicase [Tetraselmis viridis virus S20]
+
+Qry   1 IKALAREMNCPVVALSQLNRSLENRPNKRPIMSDLRESGAIEQDADLIMFIYRDEVY------NENSD--------AKGT 198
+        :| || |||  .  |.|||| .|.| .||| : |||:||. |||||.:. :|||  |       . .|        |  |
+Tgt 377 LKELAEEMNVVMYGLAQLNRQVESRDDKRPTLPDLRDSGSWEQDADVVIGVYRDAYYAQREKPGKKADIVEIDIRRADPT 456
+
+Qry 199 AEIIIGKQRNGPIGTVRL 252
+         | |: | | ||:||  |
+Tgt 457 VEAILLKAREGPLGTAEL 474
+
+Frame +1, 98 cols, 42 ids (42.9%), 14 gaps (14.3%), score 187.0 (76.6 bits), Evalue 1e-13
+
+Query >2TBY5:01915:02708
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   126      7e-07   39%     +3          9-170(2)       110-163(59)  YP_009052284.1 putative phosphate starvation-inducible protein PhoH [Aureococcus anophagefferens virus]
+
+ Query 172nt >2TBY5:01915:02708
+Target 222aa >YP_009052284.1 putative phosphate starvation-inducible protein PhoH [Aureococcus anophagefferens virus]
+
+Qry   9 KGQLEFMSTSFIRGITLEDCIVIVDETQNMSGMELHSIMTRIGENCRIIFAGDI 170
+        | .: |.   |.||:. .. |:| || || . |::  ::||:||| :||  ||:
+Tgt 110 KEKINFIPLGFMRGLSFKNTIIIADEMQNSTPMQMKMLLTRLGENSKIIITGDL 163
+
+Frame +3, 54 cols, 21 ids (38.9%), 0 gaps (0.0%), score 126.0 (53.1 bits), Evalue 7.1e-07
+
+Query >SPIKE:78
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   933     6e-100   99%     +3          3-518(1)       201-372(30)  ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 519nt >SPIKE:78
+Target 402aa >ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||:||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPEIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 482
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 360
+
+Qry 483 GKLNWASQIYPG 518
+        ||||||||||||
+Tgt 361 GKLNWASQIYPG 372
+
+Frame +3, 172 cols, 171 ids (99.4%), 0 gaps (0.0%), score 933.0 (364.0 bits), Evalue 5.8e-100
+
+Query >SPIKE:106
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   928      2e-99   99%     +3          3-518(1)       201-372(30)  ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 519nt >SPIKE:106
+Target 402aa >ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||:||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPEIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLATPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 482
+        ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 360
+
+Qry 483 GKLNWASQIYPG 518
+        ||||||||||||
+Tgt 361 GKLNWASQIYPG 372
+
+Frame +3, 172 cols, 170 ids (98.8%), 0 gaps (0.0%), score 928.0 (362.1 bits), Evalue 2.2e-99
+
+Query >SPIKE:107
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   927      3e-99   99%     +3          3-518(1)       201-372(30)  ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 519nt >SPIKE:107
+Target 402aa >ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||:||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPEIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPLLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 482
+        ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 360
+
+Qry 483 GKLNWASQIYPG 518
+        ||||||||||||
+Tgt 361 GKLNWASQIYPG 372
+
+Frame +3, 172 cols, 170 ids (98.8%), 0 gaps (0.0%), score 927.0 (361.7 bits), Evalue 2.9e-99
+
+Query >SPIKE:109
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   930      1e-99   99%     +3          3-518(1)      258-429(575)  ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  519nt >SPIKE:109
+Target 1004aa >ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  258 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 337
+
+Qry  243 QYMDDLYVGSDVEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 482
+         |||||||||||.|||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  338 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 417
+
+Qry  483 GKLNWASQIYPG 518
+         ||||||||||||
+Tgt  418 GKLNWASQIYPG 429
+
+Frame +3, 172 cols, 170 ids (98.8%), 0 gaps (0.0%), score 930.0 (362.8 bits), Evalue 1.3e-99
+
+Query >SPIKE:110
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   725      6e-76  100%     +3        3-404(114)      257-390(195)  AOZ19785.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:110
+Target 585aa >AOZ19785.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 257 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 336
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELH 404
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 337 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELH 390
+
+Frame +3, 134 cols, 134 ids (100.0%), 0 gaps (0.0%), score 725.0 (283.9 bits), Evalue 6.2e-76
+
+Query >SPIKE:113
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   735      4e-77   97%     +3         3-428(90)        201-342(0)  ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:113
+Target 342aa >ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQCSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTNQTKNIRKNLHSFGWVMNSILINGQYSL 428
+        ||.||||||||||||||||||||||||||||| |.|||||||||||||||||||||||||||
+Tgt 281 QYVDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTHQTKNIRKNLHSFGWVMNSILINGQYSL 342
+
+Frame +3, 142 cols, 138 ids (97.2%), 0 gaps (0.0%), score 735.0 (287.7 bits), Evalue 4.3e-77
+
+Query >SPIKE:118
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   709      4e-74   94%     +3         3-422(96)        211-350(0)  BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:118
+Target 350aa >BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||:||||||:||||||||||||||||||||||||||||||||||||||||||||||||||||| |||:||||||||||||
+Tgt 211 KKRSVTVLDIGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMIKILDPFRKQNPDIVIY 290
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKNLHSFGWVMNSILINGQY 422
+        |||||||||||||||||||||||||||||:||||||||  .||||||||||.||||||||
+Tgt 291 QYMDDLYVGSDLEIGQHRTKIEELRQHLLKWGLTTPDKSIRKNLHSFGWVMSSILINGQY 350
+
+Frame +3, 140 cols, 131 ids (93.6%), 0 gaps (0.0%), score 709.0 (277.7 bits), Evalue 4.5e-74
+
+Query >SPIKE:122
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   538      2e-54  100%     +3        3-308(210)       201-302(55)  AGW48438.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:122
+Target 357aa >AGW48438.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIE 308
+        ||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIE 302
+
+Frame +3, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 538.0 (211.8 bits), Evalue 2.2e-54
+
+Query >SPIKE:123
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   863      7e-92   98%     +3         3-488(30)      201-362(137)  ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:123
+Target 499aa >ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLG 482
+        |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| 
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 360
+
+Qry 483 GN 488
+        | 
+Tgt 361 GK 362
+
+Frame +3, 162 cols, 159 ids (98.1%), 0 gaps (0.0%), score 863.0 (337.0 bits), Evalue 7.1e-92
+
+Query >SPIKE:131
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   875      3e-93   99%     +3         3-488(30)      258-419(585)  ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  518nt >SPIKE:131
+Target 1004aa >ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  258 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 337
+
+Qry  243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 482
+         |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  338 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 417
+
+Qry  483 GK 488
+         ||
+Tgt  418 GK 419
+
+Frame +3, 162 cols, 161 ids (99.4%), 0 gaps (0.0%), score 875.0 (341.7 bits), Evalue 2.9e-93
+
+Query >SPIKE:134
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   732      1e-76   97%     +3         3-428(90)        201-342(0)  ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:134
+Target 342aa >ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDXDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTQTKNIRKNLHSFGWVMNSILINGQYSL 428
+        |||||||||||||||||||||||||||||:|| | |||||||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLKWGFTHQTKNIRKNLHSFGWVMNSILINGQYSL 342
+
+Frame +3, 142 cols, 138 ids (97.2%), 0 gaps (0.0%), score 732.0 (286.6 bits), Evalue 9.6e-77
+
+Query >SPIKE:135
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   709      4e-74   94%     +3         3-422(96)        211-350(0)  BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:135
+Target 350aa >BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||:||||||:||||||||||||||||||||||||||||||||||||||||||||||||||||| |||:||||||||||||
+Tgt 211 KKRSVTVLDIGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMIKILDPFRKQNPDIVIY 290
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKNLHSFGWVMNSILINGQY 422
+        |||||||||||||||||||||||||||||:||||||||  .||||||||||.||||||||
+Tgt 291 QYMDDLYVGSDLEIGQHRTKIEELRQHLLKWGLTTPDKSIRKNLHSFGWVMSSILINGQY 350
+
+Frame +3, 140 cols, 131 ids (93.6%), 0 gaps (0.0%), score 709.0 (277.7 bits), Evalue 4.5e-74
+
+Query >SPIKE:136
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   609      1e-62  100%     +2        188-517(1)      263-372(127)  ABJ91338.1 reverse transcriptase, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:136
+Target 499aa >ABJ91338.1 reverse transcriptase, partial [Human immunodeficiency virus 1]
+
+Qry 188 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 427
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 263 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 342
+
+Qry 428 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 517
+        ||||||||||||||||||||||||||||||
+Tgt 343 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 372
+
+Frame +2, 110 cols, 110 ids (100.0%), 0 gaps (0.0%), score 609.0 (239.2 bits), Evalue 1.4e-62
+
+Query >SPIKE:140
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   609      1e-62  100%     +2        188-517(1)      319-428(575)  ACI39920.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  518nt >SPIKE:140
+Target 1003aa >ACI39920.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry  188 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 427
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  319 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 398
+
+Qry  428 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 517
+         ||||||||||||||||||||||||||||||
+Tgt  399 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 428
+
+Frame +2, 110 cols, 110 ids (100.0%), 0 gaps (0.0%), score 609.0 (239.2 bits), Evalue 1.4e-62
+
+Query >SPIKE:141
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   752      5e-79   97%     +3         3-428(90)      198-339(317)  AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:141
+Target 656aa >AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 198 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 277
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWQYSL 428
+        |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||   |
+Tgt 278 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQL 339
+
+Frame +3, 142 cols, 138 ids (97.2%), 0 gaps (0.0%), score 752.0 (294.3 bits), Evalue 4.6e-79
+
+Query >SPIKE:142
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   763      2e-80   99%     +3         3-428(90)      198-339(317)  AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:142
+Target 656aa >AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 198 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 277
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVSL 428
+        |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||| |
+Tgt 278 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQL 339
+
+Frame +3, 142 cols, 140 ids (98.6%), 0 gaps (0.0%), score 763.0 (298.5 bits), Evalue 2.5e-80
+
+Query >SPIKE:143
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   847      5e-90   98%     +3         3-476(42)       201-358(44)  ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:143
+Target 402aa >ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||:||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPEIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIRS 476
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||. 
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQK 358
+
+Frame +3, 158 cols, 155 ids (98.1%), 0 gaps (0.0%), score 847.0 (330.9 bits), Evalue 5e-90
+
+Query >SPIKE:146
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   868      2e-92   94%     +3          3-515(5)      201-371(128)  ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 520nt >SPIKE:146
+Target 499aa >ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLS 482
+        |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| 
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKLV 360
+
+Qry 483 GEIELGKSDLP 515
+        |.:       |
+Tgt 361 GKLNWASQIYP 371
+
+Frame +3, 171 cols, 160 ids (93.6%), 0 gaps (0.0%), score 868.0 (339.0 bits), Evalue 2e-92
+
+Query >SPIKE:149
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   856      4e-91   99%     +3         3-476(42)      257-414(589)  AFZ77873.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  518nt >SPIKE:149
+Target 1003aa >AFZ77873.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+         ||||||||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  257 KKKSVTVLDVGDAYFSIPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 336
+
+Qry  243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQK 476
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||.||||||||||||||
+Tgt  337 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQPIMLPEKDSWTVNDIQK 414
+
+Frame +3, 158 cols, 156 ids (98.7%), 0 gaps (0.0%), score 856.0 (334.3 bits), Evalue 4.5e-91
+
+Query >SPIKE:150
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   758      9e-80   98%     +3         3-428(90)      198-339(317)  AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:150
+Target 656aa >AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 198 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 277
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTYSL 428
+        |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||  |
+Tgt 278 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQL 339
+
+Frame +3, 142 cols, 139 ids (97.9%), 0 gaps (0.0%), score 758.0 (296.6 bits), Evalue 9.3e-80
+
+Query >SPIKE:152
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   721      2e-75   96%     +3         3-428(90)        201-342(0)  ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:152
+Target 342aa >ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQCSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPAKNIRKNLHSFGWVMNSILINGQYSL 428
+        ||.||||||||||||||||||||||||||||| |   |||||||||||||||||||||||||
+Tgt 281 QYVDDLYVGSDLEIGQHRTKIEELRQHLLRWGFTHQTKNIRKNLHSFGWVMNSILINGQYSL 342
+
+Frame +3, 142 cols, 136 ids (95.8%), 0 gaps (0.0%), score 721.0 (282.3 bits), Evalue 1.8e-75
+
+Query >SPIKE:153
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   742      7e-78   98%     +3         3-428(90)        201-342(0)  ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:153
+Target 342aa >ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKKSVTVLDVGDAYFSVPLDXDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTHQTKNIRKNLHSFGWVMNSILINGQYSL 428
+        |||||||||||||||||||||||||||||:|| |||||||||||||||||||||||||||||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLKWGFTHQTKNIRKNLHSFGWVMNSILINGQYSL 342
+
+Frame +3, 142 cols, 139 ids (97.9%), 0 gaps (0.0%), score 742.0 (290.4 bits), Evalue 6.7e-78
+
+Query >SPIKE:156
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   609      1e-62  100%     +2        188-517(1)      263-372(127)  AAS37913.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:156
+Target 499aa >AAS37913.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry 188 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 427
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 263 MTKILEPFRKQNPDIVIYQYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP 342
+
+Qry 428 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 517
+        ||||||||||||||||||||||||||||||
+Tgt 343 IVLPEKDSWTVNDIQKLVGKLNWASQIYPG 372
+
+Frame +2, 110 cols, 110 ids (100.0%), 0 gaps (0.0%), score 609.0 (239.2 bits), Evalue 1.4e-62
+
+Query >SPIKE:157
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   816      2e-86   88%     +3         3-473(45)        201-372(0)  AGW49095.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query 518nt >SPIKE:157
+Target 372aa >AGW49095.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry   3 KKKSVTVLDVGDAYFSVPLDEDFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 242
+        ||:|||||||||||||||||.||||||||||||:||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 201 KKRSVTVLDVGDAYFSVPLDKDFRKYTAFTIPSVNNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPDIVIY 280
+
+Qry 243 QYMDDLYVGSDLEIGQHRTKIEELRQHLLRWGLTTPDKKHQKEPPFLWMGYELHPDKWTVQP---------------KCC 437
+        |||||||||||||||||||||||||||||:|| |||||||||||||||||||||||||||||               |||
+Tgt 281 QYMDDLYVGSDLEIGQHRTKIEELRQHLLKWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIVLPEKDSWTVNDIQKCC 360
+
+Qry 438 QKKTAGLSMTYR 473
+        ||:|||||||||
+Tgt 361 QKRTAGLSMTYR 372
+
+Frame +3, 172 cols, 151 ids (87.8%), 15 gaps (8.7%), score 816.0 (318.9 bits), Evalue 1.9e-86
+
+Query >SPIKE:158
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +3        255-710(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 710nt >SPIKE:158
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 710
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +3, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:180
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   642      2e-66   98%     +3      255-602(107)        12-127(76)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:180
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDFFQ 602
+        ||||||||||||||||||||||||||||||||| | 
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFS 127
+
+Frame +3, 116 cols, 114 ids (98.3%), 0 gaps (0.0%), score 642.0 (251.9 bits), Evalue 2.2e-66
+
+Query >SPIKE:182
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(401)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  708nt >SPIKE:182
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:183
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   800      1e-84  100%     +3       255-683(26)        12-154(49)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:183
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVG 683
+        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVG 154
+
+Frame +3, 143 cols, 143 ids (100.0%), 0 gaps (0.0%), score 800.0 (312.8 bits), Evalue 1.3e-84
+
+Query >SPIKE:184
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   652      2e-67   99%     +2        353-709(0)        45-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:184
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 353 EARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFD 592
+        .|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  45 KARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFD 124
+
+Qry 593 CFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        |||||||||||||||||||||||||||||||||||||||
+Tgt 125 CFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 119 cols, 118 ids (99.2%), 0 gaps (0.0%), score 652.0 (255.8 bits), Evalue 1.7e-67
+
+Query >SPIKE:185
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   707      7e-74   97%     +2        317-709(0)        33-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:185
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 317 EKFIKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPE 556
+        .  :||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  33 KSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPE 112
+
+Qry 557 LADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        |||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 113 LADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 131 cols, 127 ids (96.9%), 0 gaps (0.0%), score 707.0 (276.9 bits), Evalue 7.1e-74
+
+Query >SPIKE:186
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   804      5e-85  100%     +3       255-686(23)        12-155(48)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:186
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGS 686
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGS 155
+
+Frame +3, 144 cols, 144 ids (100.0%), 0 gaps (0.0%), score 804.0 (314.3 bits), Evalue 4.5e-85
+
+Query >SPIKE:188
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1032     3e-111   82%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:188
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 ---IIRDYGKQMAGDDCVASRQDE--IRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWG 466
+            |. .  . |     |  . |   |||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||
+Tgt  981 SLGIMENRWQVM-----VVWQVDRMRIRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWG 1055
+
+Qry  467 LHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALA 706
+         | |||||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| 
+Tgt 1056 LQTGERDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALT 1135
+
+Qry  707 A 709
+         |
+Tgt 1136 A 1136
+
+Frame +2, 241 cols, 197 ids (81.7%), 10 gaps (4.1%), score 1032.0 (402.1 bits), Evalue 2.6e-111
+
+Query >SPIKE:189
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1031     3e-111   81%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:189
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 ---IIRDYGKQMAGDDCVASRQDE--VRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWG 466
+            |. .  . |     |  . |   :||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||
+Tgt  981 SLGIMENRWQVM-----VVWQVDRMRIRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWG 1055
+
+Qry  467 LHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALA 706
+         | |||||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| 
+Tgt 1056 LQTGERDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALT 1135
+
+Qry  707 A 709
+         |
+Tgt 1136 A 1136
+
+Frame +2, 241 cols, 196 ids (81.3%), 10 gaps (4.1%), score 1031.0 (401.7 bits), Evalue 3.4e-111
+
+Query >SPIKE:190
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   666      4e-69  100%     +2        347-709(0)        43-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:190
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 347 SGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYY 586
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  43 SGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYY 122
+
+Qry 587 FDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        |||||||||||||||||||||||||||||||||||||||||
+Tgt 123 FDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 121 cols, 121 ids (100.0%), 0 gaps (0.0%), score 666.0 (261.2 bits), Evalue 4e-69
+
+Query >SPIKE:191
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   689      8e-72  100%     +3       255-623(86)        12-134(69)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:191
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKA 623
+        |||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKA 134
+
+Frame +3, 123 cols, 123 ids (100.0%), 0 gaps (0.0%), score 689.0 (270.0 bits), Evalue 8.2e-72
+
+Query >SPIKE:194
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:194
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:195
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(401)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  708nt >SPIKE:195
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:197
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1132     7e-123   87%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:197
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKECQEEKQR 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||     | :
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 SLGIMENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGE 481
+         ||||||||||||:|||||||||||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||| |||
+Tgt  981 SLGIMENRWQVMVVWQVDRMRIRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWGLQTGE 1060
+
+Qry  482 RDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+         ||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| |
+Tgt 1061 RDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALTA 1136
+
+Frame +2, 236 cols, 206 ids (87.3%), 0 gaps (0.0%), score 1132.0 (440.7 bits), Evalue 6.6e-123
+
+Query >SPIKE:205
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:205
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:206
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:206
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:207
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   670      1e-69  100%     +2        344-709(0)        42-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:207
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 344 VSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLY 583
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  42 VSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLY 121
+
+Qry 584 YFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||
+Tgt 122 YFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 122 cols, 122 ids (100.0%), 0 gaps (0.0%), score 670.0 (262.7 bits), Evalue 1.4e-69
+
+Query >SPIKE:208
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +3        255-710(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 710nt >SPIKE:208
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 710
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +3, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:218
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1037     7e-112   82%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:218
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 IIRDYGKQMAGDDCVASRQVRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGE 481
+          :     .          ..||||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||| |||
+Tgt  981 SLGIMENRWQVMVVWQVDRMRIRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWGLQTGE 1060
+
+Qry  482 RDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+         ||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| |
+Tgt 1061 RDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALTA 1136
+
+Frame +2, 236 cols, 194 ids (82.2%), 0 gaps (0.0%), score 1037.0 (404.1 bits), Evalue 6.9e-112
+
+Query >SPIKE:219
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   682      5e-71  100%     +2        338-709(0)        40-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:219
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 338 MYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIH 577
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  40 MYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIH 119
+
+Qry 578 LYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||
+Tgt 120 LYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 124 cols, 124 ids (100.0%), 0 gaps (0.0%), score 682.0 (267.3 bits), Evalue 5.3e-71
+
+Query >SPIKE:220
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1034     2e-111   82%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:220
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 IIRDYGKQMAGDDCVASRQERIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGE 481
+          :     .          . ||||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||| |||
+Tgt  981 SLGIMENRWQVMVVWQVDRMRIRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWGLQTGE 1060
+
+Qry  482 RDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+         ||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| |
+Tgt 1061 RDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALTA 1136
+
+Frame +2, 236 cols, 194 ids (82.2%), 0 gaps (0.0%), score 1034.0 (402.9 bits), Evalue 1.5e-111
+
+Query >SPIKE:221
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   555      2e-56  100%     +3      255-548(161)        12-109(94)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:221
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQV 548
+        ||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQV 109
+
+Frame +3, 98 cols, 98 ids (100.0%), 0 gaps (0.0%), score 555.0 (218.4 bits), Evalue 2.3e-56
+
+Query >SPIKE:223
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1031     3e-111   82%     +2          2-709(0)      901-1136(40)  AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+ Query  709nt >SPIKE:223
+Target 1176aa >AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         |||||| |||||||:||||||||||||||||||||||||||||||.||||||||||||||||||||||||||||||||||
+Tgt  901 RKGGIGEYSAGERIIDIIATDIQTKELQKQITKIQNFRVYYRDSRDPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 980
+
+Qry  242 ---IIRDYGKQMAGDDCVASRQDGIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLH 472
+            |. .  . |        |   |||||||||||||:| ||||||||||||. ||:||||||||||:|:||| ||||| 
+Tgt  981 SLGIMENRWQVMVVWQVDRMR---IRTWKSLVKHHMYISKKARGWFYRHHYENIHPKISSEVHIPLGEAKLVIITYWGLQ 1057
+
+Qry  473 TGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+         |||||||||||||||||.::| ||||| |||||||||||||||:||||||:.| ||||||||||||||||||||||| |
+Tgt 1058 TGERDWHLGQGVSIEWRERKYRTQVDPNLADQLIHLYYFDCFSESAIRKAIVGDIVSPRCEYQAGHNKVGSLQYLALTA 1136
+
+Frame +2, 239 cols, 196 ids (82.0%), 6 gaps (2.5%), score 1031.0 (401.7 bits), Evalue 3.4e-111
+
+Query >SPIKE:224
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   630      5e-65   97%     +3      255-602(107)        12-127(76)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:224
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYLTVFQ 602
+        |||||||||||||||||||||||||||||||   | 
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFS 127
+
+Frame +3, 116 cols, 112 ids (96.6%), 0 gaps (0.0%), score 630.0 (247.3 bits), Evalue 5.4e-65
+
+Query >SPIKE:225
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   680      1e-70   98%     +2        329-709(0)        37-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:225
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 329 KTPLYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQ 568
+        |  :||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  37 KHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQ 116
+
+Qry 569 LIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        |||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 117 LIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 127 cols, 124 ids (97.6%), 0 gaps (0.0%), score 680.0 (266.5 bits), Evalue 9.6e-71
+
+Query >SPIKE:227
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:227
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:228
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:228
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:229
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +2        254-709(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:229
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 254 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 493
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 494 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:230
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +2        254-709(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:230
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 254 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 493
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 494 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:231
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:231
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:232
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:232
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:233
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +2        254-709(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:233
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 254 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 493
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 494 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:234
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +2        254-709(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:234
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 254 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 493
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 494 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:235
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +2        254-709(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:235
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 254 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 493
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 494 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:236
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   625      2e-64  100%     +2        368-709(0)        50-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:236
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 368 FYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDS 607
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  50 FYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWHLGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDS 129
+
+Qry 608 AIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 709
+        ||||||||||||||||||||||||||||||||||
+Tgt 130 AIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +2, 114 cols, 114 ids (100.0%), 0 gaps (0.0%), score 625.0 (245.4 bits), Evalue 2e-64
+
+Query >SPIKE:237
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:237
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:238
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:238
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:239
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   794      7e-84  100%     +3       255-680(29)        12-153(50)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:239
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKV 680
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKV 153
+
+Frame +3, 142 cols, 142 ids (100.0%), 0 gaps (0.0%), score 794.0 (310.5 bits), Evalue 6.5e-84
+
+Query >SPIKE:240
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   804      5e-85  100%     +3       255-686(23)        12-155(48)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 709nt >SPIKE:240
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGS 686
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGS 155
+
+Frame +3, 144 cols, 144 ids (100.0%), 0 gaps (0.0%), score 804.0 (314.3 bits), Evalue 4.5e-85
+
+Query >SPIKE:241
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   531      1e-53  100%     +2        2-307(402)      1346-1447(0)  P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+ Query  709nt >SPIKE:241
+Target 1447aa >P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]
+
+Qry    2 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 1346 RKGGIGGYSAGERIVDIIATDIQTKELQKQITKIQNFRVYYRDSRNPLWKGPAKLLWKGEGAVVIQDNSDIKVVPRRKAK 1425
+
+Qry  242 IIRDYGKQMAGDDCVASRQDED 307
+         ||||||||||||||||||||||
+Tgt 1426 IIRDYGKQMAGDDCVASRQDED 1447
+
+Frame +2, 102 cols, 102 ids (100.0%), 0 gaps (0.0%), score 531.0 (209.1 bits), Evalue 1.4e-53
+
+Query >SPIKE:242
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   600      2e-61   99%     +3      255-578(133)        12-119(84)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 711nt >SPIKE:242
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQVDPELADQLIR 578
+        ||||||||||||||||||||||||||| 
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIH 119
+
+Frame +3, 108 cols, 107 ids (99.1%), 0 gaps (0.0%), score 600.0 (235.7 bits), Evalue 1.5e-61
+
+Query >SPIKE:243
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   834      2e-88   99%     +3        255-710(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 710nt >SPIKE:243
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQEDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 710
+        ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +3, 152 cols, 151 ids (99.3%), 0 gaps (0.0%), score 834.0 (325.9 bits), Evalue 1.5e-88
+
+Query >SPIKE:244
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   553      4e-56   98%     +3      255-554(157)        12-111(92)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 711nt >SPIKE:244
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 255 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 494
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 495 LGQGVSIEWRKKRYSTQDRP 554
+        |||||||||||||||||  |
+Tgt  92 LGQGVSIEWRKKRYSTQVDP 111
+
+Frame +3, 100 cols, 98 ids (98.0%), 0 gaps (0.0%), score 553.0 (217.6 bits), Evalue 3.9e-56
+
+Query >SPIKE:251
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   840      3e-89  100%     +3        252-707(0)        12-163(40)  1102247D protein sor [Human immunodeficiency virus 1]
+
+ Query 707nt >SPIKE:251
+Target 203aa >1102247D protein sor [Human immunodeficiency virus 1]
+
+Qry 252 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 491
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  12 MENRWQVMIVWQVDRMRIRTWKSLVKHHMYVSGKARGWFYRHHYESPHPRISSEVHIPLGDARLVITTYWGLHTGERDWH 91
+
+Qry 492 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 707
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  92 LGQGVSIEWRKKRYSTQVDPELADQLIHLYYFDCFSDSAIRKALLGHIVSPRCEYQAGHNKVGSLQYLALAA 163
+
+Frame +3, 152 cols, 152 ids (100.0%), 0 gaps (0.0%), score 840.0 (328.2 bits), Evalue 3.1e-89
+
+Query >SPIKE:433
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+  1537     8e-170  100%     +2          2-823(0)     129-402(2565)  NP_045010.1 polyprotein precursor [Pegivirus A]
+
+ Query  823nt >SPIKE:433
+Target 2967aa >NP_045010.1 polyprotein precursor [Pegivirus A]
+
+Qry    2 CSLRCNFDYSYPGISVDFDWAFTTLIHLPGKLWRGFTNASMLAVLVIIMLVLEQRLLMAFLLLLVVGEAQGGIFDNCHCA 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  129 CSLRCNFDYSYPGISVDFDWAFTTLIHLPGKLWRGFTNASMLAVLVIIMLVLEQRLLMAFLLLLVVGEAQGGIFDNCHCA 208
+
+Qry  242 YWGGRPPPRLDINYRGNGTVVCECDFGKMHWAPKLCSGLLWRDGAREGTVWTLPRVCPREVLGTVSAVCQWGSAYWVWRF 481
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  209 YWGGRPPPRLDINYRGNGTVVCECDFGKMHWAPKLCSGLLWRDGAREGTVWTLPRVCPREVLGTVSAVCQWGSAYWVWRF 288
+
+Qry  482 GDWVPLYDELPRSALCTFYAGTGRYPADVDVLNPSGPPCASCVVDQRPRKCGDCVRDCFETGGPGFEECGVGVRVTSLLT 721
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  289 GDWVPLYDELPRSALCTFYAGTGRYPADVDVLNPSGPPCASCVVDQRPRKCGDCVRDCFETGGPGFEECGVGVRVTSLLT 368
+
+Qry  722 AVLVDGGVESKVSTPVGERPKYLGQHGQGTFYGA 823
+         ||||||||||||||||||||||||||||||||||
+Tgt  369 AVLVDGGVESKVSTPVGERPKYLGQHGQGTFYGA 402
+
+Frame +2, 274 cols, 274 ids (100.0%), 0 gaps (0.0%), score 1537.0 (596.7 bits), Evalue 8.4e-170

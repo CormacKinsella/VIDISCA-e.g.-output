@@ -1,0 +1,1182 @@
+/home/kinsella/VIDISCA_analysis_pipeline_v20181113/programmes/usearch10.0.24_linux32 -ublast Example_sample_1_UTM.clustered_non_rRNA.fas -db /scratch/blast_db/EukViPrRef_95.udb -evalue 1e-4 -accel 0.8 -maxhits 1 -mincodons 15 -blast6out Example_sample_1_UTM.euk_ublast_table_unfiltered.txt -alnout Example_sample_1_UTM.05_all_euk_virus_and_false_pos_protein_alignments.txt -matched Example_sample_1_UTM.putative_euk_viral_unfiltered.fas -notmatched Example_sample_1_UTM.check_for_phages.fas -threads 1 
+usearch v10.0.240_i86linux32, 4.0Gb RAM (65.9Gb total), 16 cores
+
+Query >2TBY5:00042:02253
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   246      1e-20   55%     -2         2-250(88)       432-514(26)  YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]
+
+ Query 338nt >2TBY5:00042:02253
+Target 540aa >YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]
+
+Qry 250 GGTMRLGAYPCVIKEGSLAYRIYGETHISERHRHRYEFNNEYLEQLEAYGMYASGYNPETGLVEIIEIPQHPFFIGVQYH 11
+        |||||||.| | :.||.|  :||    | |||||| | || |:: |    |  ||:| |  |||:||:  |||||  |||
+Tgt 432 GGTMRLGSYDCSLEEGTLGRKIYQTDTIHERHRHRLEVNNMYIDALTEAHMTFSGFNKELNLVEVIELKDHPFFIACQYH 511
+
+Qry  10 PEL 2
+        || 
+Tgt 512 PEF 514
+
+Frame -2, 83 cols, 46 ids (55.4%), 0 gaps (0.0%), score 246.0 (99.4 bits), Evalue 1.3e-20
+
+Query >2TBY5:00068:00677
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   126      8e-07   32%     +1         1-189(34)      398-474(610)  YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]
+
+ Query  223nt >2TBY5:00068:00677
+Target 1084aa >YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]
+
+Qry    1 IKVEKIKHSYPHCWRHKTPIIFRATPQWFIGMETQGLRQQALGEIKQVRWIP----------------DWGQARIEKMG 189
+         :| |. || ||||||  ||:|::|   .||  .   :: . .   |.| |:|                ||| .|    |
+Tgt  398 LKKEQYKHKYPHCWRTDTPLIYKAVSSFFI--KVTSIKDKMVVNNKKVNWVPENIGTGRFKQWIENAKDWGVSRSRFFG 474
+
+Frame +1, 79 cols, 25 ids (31.6%), 18 gaps (22.8%), score 126.0 (53.1 bits), Evalue 8e-07
+
+Query >2TBY5:00170:00936
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   184      1e-13   65%     +3         3-164(72)          7-59(10)  AAC59461.1 HERV-E envelope protein, partial [Human endogenous retrovirus]
+
+ Query 236nt >2TBY5:00170:00936
+Target  69aa >AAC59461.1 HERV-E envelope protein, partial [Human endogenous retrovirus]
+
+Qry   3 KIWTCTIRTSTDLPQTENCFQYIHEVTEVGQKIATVLLFYGYCKCTRTLKETCL 164
+        | || |:| |||| || .| | ||:||||||.| |: ||| | .|  |||||||
+Tgt   7 KFWTYTVRASTDLTQTGDCSQCIHQVTEVGQQIKTIFLFYSY-ECMETLKETCL 59
+
+Frame +3, 54 cols, 35 ids (64.8%), 1 gaps (1.9%), score 184.0 (75.5 bits), Evalue 1.3e-13
+
+Query >2TBY5:00151:01819
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   200      4e-15   33%     +1        28-378(15)      207-330(122)  YP_003970135.1 putative bifunctional dihydrofolate reductase/thymidylate synthase [Cafeteria roenbergensis virus BV-PW1 BV-PW1]
+
+ Query 393nt >2TBY5:00151:01819
+Target 452aa >YP_003970135.1 putative bifunctional dihydrofolate reductase/thymidylate synthase [Cafeteria roenbergensis virus BV-PW1 BV-PW1]
+
+Qry  28 FPLVTTRKSYWKAAIAELLGYLRGYDSAAQFRAIGCNTWNANANEN-EAWLANPYRKGEDDMGRVYGVQGRRW------- 243
+        |||.||:| :||  : ||| ::||: ..      | | |  | ...    |  || .|  |||::||   | .       
+Tgt 207 FPLLTTKKMFWKGIVEELLFFIRGHTNSKLLEEKGVNIWKGNTSKDFITKLGLPYEEG--DMGKIYGFNWRHFGADYINC 284
+
+Qry 244 -RNSVGEEFDQLRKIYDNLRNGIDDRGEILTFYNPGEFHMGCLRPC 378
+          |  |. |||| || : ::     |  ::. :.|   | | | ||
+Tgt 285 NTNYTGKGFDQLVKIIEEIKTNPSSRRILMSDFDPATSHQGVLYPC 330
+
+Frame +1, 126 cols, 42 ids (33.3%), 11 gaps (8.7%), score 200.0 (81.6 bits), Evalue 4.3e-15
+
+Query >2TBY5:00289:00768
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   128      7e-07   43%     +1         1-207(62)      445-513(174)  YP_004061441.1 hypothetical protein [Bathycoccus sp. RCC1105 virus BpV1]
+
+ Query 269nt >2TBY5:00289:00768
+Target 687aa >YP_004061441.1 hypothetical protein [Bathycoccus sp. RCC1105 virus BpV1]
+
+Qry   1 IIAAREGKNKIDMRDI-EEATDRVIAGPAKKSRVISEKERNIVAHHEAGHTIIGMVLDEAEIVHKVTICP 207
+        | | |:||. .   || |:   |:: | || .| :|   :  ||:||||| |||..: | : | ||.| |
+Tgt 445 IRAVRDGKSGMITPDIIEDVYQRIVVG-AKGNRTVSGARKARVAYHEAGHAIIGVLMQEYDEVRKVSILP 513
+
+Frame +1, 70 cols, 30 ids (42.9%), 2 gaps (2.9%), score 128.0 (53.9 bits), Evalue 6.6e-07
+
+Query >2TBY5:00297:01399
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   133      2e-07   36%     -3          9-239(2)         6-89(128)  YP_003406960.1 hypothetical protein [Marseillevirus marseillevirus]
+
+ Query 241nt >2TBY5:00297:01399
+Target 217aa >YP_003406960.1 hypothetical protein [Marseillevirus marseillevirus]
+
+Qry 239 KLRKKKLHPKKAAKKSSK-------KKPRRKAAPKKVAKEEISSPRKKAAAKKTVKKAAAKKPAAKKAAPKKKAAAKKPA 21
+        :  . ||   ..|  .|.       .||::||||||   .. |.|:|.|| |||    | |||   |||||..   .. .
+Tgt   6 RATEPKLSEDESATDNSESEEELVVEKPKKKAAPKKAQTKKASAPKKEAAPKKTAAPPAEKKPRKPKAAPKEEVPEEEES 85
+
+Qry  20 AKKP 9
+           |
+Tgt  86 EAAP 89
+
+Frame -3, 84 cols, 30 ids (35.7%), 7 gaps (8.3%), score 133.0 (55.8 bits), Evalue 1.5e-07
+
+Query >2TBY5:00289:02516
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   131      2e-07   53%     +1          1-168(1)     293-349(1158)  YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]
+
+ Query  169nt >2TBY5:00289:02516
+Target 1507aa >YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]
+
+Qry    1 IIDNGRRG-RPVTGPGNRPLKSLSHMLKGKQGRFRQNLLGKRVDYSGRSVIAVGPSL 168
+         ::||   |   |     |||||:   | || || | ||:||||||| ||||   | |
+Tgt  293 LVDNKIPGVAAVAQRSGRPLKSIKERLNGKTGRVRGNLMGKRVDYSARSVITPDPQL 349
+
+Frame +1, 57 cols, 30 ids (52.6%), 1 gaps (1.8%), score 131.0 (55.1 bits), Evalue 1.9e-07
+
+Query >2TBY5:00288:02787
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   200      3e-15   41%     -1         21-299(3)       106-202(54)  YP_009119098.1 orotate phosphoribosyltransferase [Pandoravirus inopinatum]
+
+ Query 302nt >2TBY5:00288:02787
+Target 256aa >YP_009119098.1 orotate phosphoribosyltransferase [Pandoravirus inopinatum]
+
+Qry 299 SDIDV----IAGTSTAGIPHAAFISQDLDLPMSYVRGSKKSHGKQNQIEGAQVAGKRVVVIEDLISTGGSSLEVVDALQA 72
+        .|:|     | | .| || :|  :.  | ||:.||| . | |||  .:||   || | |:|:|.: || ..|  | ||. 
+Tgt 106 TDVDAVPITIVGVATGGIAYATGVADRLGLPLAYVRAAPKDHGKGKRVEGGLAAGGRCVIIDDVLGTGAAALNAVQALKD 185
+
+Qry  71 AGAEVVEVVAIFTYGMD 21
+         || |. |  ||.|  |
+Tgt 186 HGAHVLGVCTIFSYDFD 202
+
+Frame -1, 97 cols, 40 ids (41.2%), 4 gaps (4.1%), score 200.0 (81.6 bits), Evalue 3.3e-15
+
+Query >2TBY5:00339:01254
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   165      3e-11   39%     +1          1-255(7)      364-447(139)  AFC34919.1 hypothetical protein [Ostreococcus tauri virus RT-2011]
+
+ Query 262nt >2TBY5:00339:01254
+Target 586aa >AFC34919.1 hypothetical protein [Ostreococcus tauri virus RT-2011]
+
+Qry   1 IIAAREGKNKIDMRDIEEATDRVIAGPAKKSRVISEKERNIVAHHEAGHTIIGMVLDEAEIVHKVTIVPRGQAGGYAMML 240
+        | | |:|   |    .|    |:: | ||     |:|.: :||:||||| |:| :|   : | ||.|:||| |||     
+Tgt 364 IRAVRDGDGTITTDIMENVYQRIVVG-AKGDTKFSQKKKQLVAYHEAGHAIVGAILPNYDTVRKVSIIPRGSAGGVTFFQ 442
+
+Qry 241 PKQDR 255
+        | :: 
+Tgt 443 PSEEN 447
+
+Frame +1, 85 cols, 33 ids (38.8%), 1 gaps (1.2%), score 165.0 (68.2 bits), Evalue 3.3e-11
+
+Query >2TBY5:00304:01473
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   198      5e-15   41%     -3          3-242(2)      462-546(121)  Q9HDB9.3 Endogenous retrovirus group K member 5 Gag polyprotein [Homo sapiens]_vertebrate_derived
+
+ Query 244nt >2TBY5:00304:01473
+Target 667aa >Q9HDB9.3 Endogenous retrovirus group K member 5 Gag polyprotein [Homo sapiens]_vertebrate_derived
+
+Qry 242 KKMISDSAAQNIVLQLLAFDNANPDCQAALRPIRGKAH-----LVDYIKACDGIGGNLYNATLLAQAMAGLKVDKGNTPF 18
+        .| |.|  |. ::.:|:|::||||:||.|::|::||       : :|:|||||||| :: | |:|||| || .      |
+Tgt 462 QKSITDDNARKVIVELMAYENANPECQSAIKPLKGKVPAGVDVITEYVKACDGIGGAMHKAMLMAQAMRGLTLGGQVRTF 541
+
+Qry  17 PGACF 3
+           |:
+Tgt 542 GKKCY 546
+
+Frame -3, 85 cols, 35 ids (41.2%), 5 gaps (5.9%), score 198.0 (80.9 bits), Evalue 4.5e-15
+
+Query >2TBY5:00361:01655
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   234      4e-19   54%     +1        28-282(83)      279-371(337)  NP_043933.1 hypothetical protein [Strawberry vein banding virus]
+
+ Query 365nt >2TBY5:00361:01655
+Target 708aa >NP_043933.1 hypothetical protein [Strawberry vein banding virus]
+
+Qry  28 VRVNNIMVSPTDKEEFAKQIKDLLDLKLIQKSFSTHSSPAFLVRNHAEIKRGKARMVINYRKLNSHTK---FVTPRLRQ- 255
+        ::   .  || |:|||  ||.:|| | :|. | | ||||||:||||||||||||||||||:||| |||   :. |   | 
+Tgt 279 IKCKPMQYSPQDREEFKTQIEELLKLGIIRPSKSPHSSPAFMVRNHAEIKRGKARMVINYKKLNDHTKGDGYLLPNKEQL 358
+
+Qry 256 ----GGSCKHSDF 282
+            ||   :| |
+Tgt 359 LQRIGGKTFYSSF 371
+
+Frame +1, 93 cols, 50 ids (53.8%), 8 gaps (8.6%), score 234.0 (94.7 bits), Evalue 3.9e-19
+
+Query >2TBY5:00438:01336
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   119      3e-06   57%     +3         6-125(59)      924-963(179)  AAL87856.1 pol protein [Porcine endogenous retrovirus]
+
+ Query  184nt >2TBY5:00438:01336
+Target 1142aa >AAL87856.1 pol protein [Porcine endogenous retrovirus]
+
+Qry    6 AAVTQGVSKALGIEYHLHCAWRPQFSGKVEKTNDIIKRHL 125
+         | |.||..| |||:: ||||:||| ||.||: |  ||  |
+Tgt  924 AQVSQGLAKILGIDWKLHCAYRPQSSGQVERMNRTIKETL 963
+
+Frame +3, 40 cols, 23 ids (57.5%), 0 gaps (0.0%), score 119.0 (50.4 bits), Evalue 3.4e-06
+
+Query >2TBY5:00449:02267
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   108      6e-05   54%     -2        3-125(157)      230-270(923)  AHC55379.1 polymerase, partial [Reticuloendotheliosis virus]
+
+ Query  282nt >2TBY5:00449:02267
+Target 1193aa >AHC55379.1 polymerase, partial [Reticuloendotheliosis virus]
+
+Qry  125 LVQDLCLINQIVFPIHPVVPNPYTLFYSIPSSTTHYSILGL 3
+         :||||  :|. |  ||| |||||||   :|   | ||:| |
+Tgt  230 MVQDLREVNKRVETIHPTVPNPYTLLSLLPPDRTWYSVLDL 270
+
+Frame -2, 41 cols, 22 ids (53.7%), 0 gaps (0.0%), score 108.0 (46.2 bits), Evalue 6.5e-05
+
+Query >2TBY5:00415:02918
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   205      1e-15   41%     +3        27-326(14)       655-758(83)  AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]
+
+ Query 340nt >2TBY5:00415:02918
+Target 841aa >AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]
+
+Qry  27 MLDALQRKFSVPEYLLVMLRDFLKEMRLQYKTESGSFFREVTVGAAQGSVLGPDLWNVSYDGLLRLQMPFSVSLVGYADD 266
+        .||||: || |    | .. |:| |  |  .|  |     :| |  |||::||||||  || || : :|  | | |:|||
+Tgt 655 ILDALEHKFDVEPKNLRIVDDYLDERTLIAETREGPQEHNITAGVPQGSIMGPDLWNADYDELLEIPLPKQVKLTGFADD 734
+
+Qry 267 VAAVITSRNADLAQI----KLDIV 326
+        ||| |   .|: |::     :|::
+Tgt 735 VAATIVVDSAEEAELLVRETIDVI 758
+
+Frame +3, 104 cols, 43 ids (41.3%), 4 gaps (3.8%), score 205.0 (83.6 bits), Evalue 9.8e-16
+
+Query >2TBY5:00479:01265
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   138      5e-08   30%     -2         9-302(43)      463-561(206)  NP_077550.1 EsV-1-65 [Ectocarpus siliculosus virus 1]
+
+ Query 345nt >2TBY5:00479:01265
+Target 767aa >NP_077550.1 EsV-1-65 [Ectocarpus siliculosus virus 1]
+
+Qry 302 NVLSNAHKYSAPGT-EIHLSILEQEKYQHSFVGLSVVDHGIGMTNEHLSRLFERFYRADTSGNIPGTGLGLCLVKEIVEI 66
+        |..||| |:.  |.  : . :        .::  || | ||||.   : :||: | .     .: |||||| : .::| :
+Tgt 463 NLVSNALKFTDNGSVSVSVDVENGPGEGTAYIRASVTDTGIGMSESAMKKLFQPFSQVHRGRDVGGTGLGLVITQQLVTL 542
+
+Qry  65 HGGWVDVSSELGEGTTVTL 9
+         || :   |. | ||  | 
+Tgt 543 MGGKISCDSKAGLGTKFTF 561
+
+Frame -2, 99 cols, 30 ids (30.3%), 1 gaps (1.0%), score 138.0 (57.8 bits), Evalue 5.2e-08
+
+Query >2TBY5:00495:01542
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   108     0.0001   45%     +3        15-176(19)        25-80(612)  ANB50825.1 hypothetical protein [Powai lake megavirus]
+
+ Query 195nt >2TBY5:00495:01542
+Target 692aa >ANB50825.1 hypothetical protein [Powai lake megavirus]
+
+Qry  15 DYIIVGAGSAGCVLANRLTADGKTRVLLLEAGGDDR--PMHNPSQFLSNVMIHVPV 176
+        |||:|||| || |.| ||  |   |:|||| | |.   | .|        :|  | 
+Tgt  25 DYIVVGAGCAGSVVAARLAEDKNNRILLLEGGHDNSLIPQNNTINDYQKKLISTPA 80
+
+Frame +3, 56 cols, 25 ids (44.6%), 2 gaps (3.6%), score 108.0 (46.2 bits), Evalue 9.9e-05
+
+Query >2TBY5:00517:01207
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   136      5e-08   48%     -1          3-161(6)       220-277(69)  AGE55627.1 D-lactate dehydrogenase [Acanthocystis turfacea Chlorella virus MN0810.1]
+
+ Query 167nt >2TBY5:00517:01207
+Target 346aa >AGE55627.1 D-lactate dehydrogenase [Acanthocystis turfacea Chlorella virus MN0810.1]
+
+Qry 161 NKKFID-----LMQRGVMLINTCRGGCVNTADVIAGLESGQIGYYGADVYENERGLFF 3
+        |  |||      |.:  .:||| ||| :.| |.|  ||.|.|     |||||| ||||
+Tgt 220 NHHFIDRMTLRTMKKNAIIINTARGGLIDTGDLIEALETGRIAGAAVDVYENEAGLFF 277
+
+Frame -1, 58 cols, 28 ids (48.3%), 5 gaps (8.6%), score 136.0 (57.0 bits), Evalue 4.8e-08
+
+Query >2TBY5:00631:02869
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   151      2e-09   34%     -2        2-262(109)      128-227(272)  YP_009165054.1 Amidophosphoribosyltransferase [Mollivirus sibericum]
+
+ Query 371nt >2TBY5:00631:02869
+Target 499aa >YP_009165054.1 Amidophosphoribosyltransferase [Mollivirus sibericum]
+
+Qry 262 DSEVLLNVLAHEMQKLGI-----RHPSPDD-------IFEAMTSVYKRIEGAYAVVAMITGYGILAFRDPNGIRPLIFGQ 59
+        ||:::|. | | ::.  :      | . |        :| |.  .: .  | || | :|   |:. |||| ||||| :| 
+Tgt 128 DSQIMLHALVHNLEQALVSSAATHHGTQDQAANDEALVFAAVERLFGQCSGGYACVVLIERIGLVLFRDPQGIRPLCYGV 207
+
+Qry  58 RLAENG-GFEYMVASESVAL 2
+        : . .|   ::| |||||||
+Tgt 208 KTSGDGQRLDWMAASESVAL 227
+
+Frame -2, 100 cols, 34 ids (34.0%), 13 gaps (13.0%), score 151.0 (62.8 bits), Evalue 1.6e-09
+
+Query >2TBY5:00693:01633
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   214      1e-16   33%     +3         12-443(0)       599-748(93)  AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]
+
+ Query 443nt >2TBY5:00693:01633
+Target 841aa >AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]
+
+Qry  12 VKNKFEIRADSETLGQGGAVVESVWRAEDHNHWSRRVVLLVTLDVKNAFNSVR------TCCGRLSTRSTLLRTIESYLR 233
+          |.   |    |:     |:|.   |   .  .|:| |..|||:||||||            :       || :: || 
+Tgt 599 ASNQHGFRKGRSTIDAIQKVIETAREAWSGSLIARKVCLVLTLDIKNAFNSASWGNILDALEHKFDVEPKNLRIVDDYLD 678
+
+Qry 234 DRALLYDSVDGQRRILITSGAAQGSILGPGPWNVPYDSLLRLDMPDESRLVGYADDVTFLIAARNASRRD 443
+        :| |: :. :| .   ||.|  ||||:||  ||  || || : :| : :| |:||||   |   .|   :
+Tgt 679 ERTLIAETREGPQEHNITAGVPQGSIMGPDLWNADYDELLEIPLPKQVKLTGFADDVAATIVVDSAEEAE 748
+
+Frame +3, 150 cols, 49 ids (32.7%), 6 gaps (4.0%), score 214.0 (87.0 bits), Evalue 1.2e-16
+
+Query >2TBY5:00673:02262
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   161      8e-11   35%     +1         10-222(2)      418-489(611)  AUV58299.1 isoleucyl-tRNA synthetase [Bandra megavirus]
+
+ Query  224nt >2TBY5:00673:02262
+Target 1100aa >AUV58299.1 isoleucyl-tRNA synthetase [Bandra megavirus]
+
+Qry   10 EKIKHSYPHCWRHKTPIIFRATPQWFIGMETQGLRQQALGEIKQVRWIP-DWGQARIEKMVENRPDWCISRQ 222
+         .. |||||||:|  ||:::| .  ||:    :  |:. |    .: |.| . |    :  .:|  |||||| 
+Tgt  418 KQYKHSYPHCYRTDTPLLYRVSTGWFLNASDETFREKMLNNNSKINWMPSNIGTKHFDNWLQNSVDWCISRS 489
+
+Frame +1, 72 cols, 25 ids (34.7%), 1 gaps (1.4%), score 161.0 (66.6 bits), Evalue 8.2e-11
+
+Query >2TBY5:00738:00985
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   186      1e-13   51%     -1        20-232(18)        13-85(380)  ANB51141.1 adenylosuccinate synthetase [Powai lake megavirus]
+
+ Query 250nt >2TBY5:00738:00985
+Target 465aa >ANB51141.1 adenylosuccinate synthetase [Powai lake megavirus]
+
+Qry 232 VVVLGSQWGDEGKGKIVDLLTEKA--SAVARFQGGHNAGHTLVVDGKTTILHLIPSGILREGVTCFIGNGVVL 20
+        : |.|  .|||||||||| |.:.   | |||  || |. ||: : ||  | ||||||:  | . | .|||.|:
+Tgt  13 ITVVGCFFGDEGKGKIVDKLSDEGDFSIVARAAGGSNSAHTISIGGKKFIPHLIPSGLFSEKMICLMGNGMVI 85
+
+Frame -1, 73 cols, 37 ids (50.7%), 2 gaps (2.7%), score 186.0 (76.3 bits), Evalue 1.2e-13
+
+Query >2TBY5:00714:02804
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   268      3e-23   77%     +1         1-195(23)      626-690(694)  AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]
+
+ Query  218nt >2TBY5:00714:02804
+Target 1384aa >AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]
+
+Qry    1 IKTYANMSQKGSDMAVFGIQTNNTNDEITNYQVGRYVNCNEAIWRIFSFPIHERHPTVLHLAVLL 195
+         ||       |||||||||:|..||||||. |||||||||||||||||.|||||||||| |||| |
+Tgt  626 IKYICKYVTKGSDMAVFGLQSSNTNDEISRYQVGRYVNCNEAIWRIFAFPIHERHPTVTHLAVHL 690
+
+Frame +1, 65 cols, 50 ids (76.9%), 0 gaps (0.0%), score 268.0 (107.8 bits), Evalue 3.1e-23
+
+Query >2TBY5:00782:03011
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   178      1e-12   40%     +3          3-332(2)      100-208(243)  ATZ80629.1 adenylosuccinate lyase [Bodo saltans virus]
+
+ Query 334nt >2TBY5:00782:03011
+Target 451aa >ATZ80629.1 adenylosuccinate lyase [Bodo saltans virus]
+
+Qry   3 EYFIKDKFRGNQQLEDSLEFIHFACTSEDINNLSYALMLKDSRKIVVAKMQQVTDSIVDLAITHADQPMLSRTHGQTASP 242
+        ||||| |      |   .|||||  ||:|||| || :||:|    :      |  . ::  :   |  ||.||||| |||
+Tgt 100 EYFIKSKME-KVGLGSVVEFIHFGLTSQDINNTSYPMMLRDVVNNIYIPSINVILANIEGRLNEFDVSMLARTHGQPASP 178
+
+Qry 243 TTLGKEMANVAHRLARQIKQIGQVELLGKI 332
+        | | ||      ||  |:  :  | :  | 
+Tgt 179 TNLSKEFKVWLERLKNQLASLKAVPIQCKF 208
+
+Frame +3, 110 cols, 44 ids (40.0%), 1 gaps (0.9%), score 178.0 (73.2 bits), Evalue 1.3e-12
+
+Query >2TBY5:00929:03259
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   126      1e-06   33%     +1        37-333(13)          2-99(58)  YP_009174618.1 hypothetical protein [Yellowstone lake phycodnavirus 2]
+
+ Query 346nt >2TBY5:00929:03259
+Target 157aa >YP_009174618.1 hypothetical protein [Yellowstone lake phycodnavirus 2]
+
+Qry  37 RGGFGEGIYEIGKENENVVVLTADLAGSLKLGPFIKDFPHRFVQVGIAEANMIGIAAGMTVGGKIPYTTTFANFSTGRVY 276
+        |  | . ::|    .  : .|||||   : |    :||| | | ||  |  |||.| |:   | :|   .   |   | :
+Tgt   2 RKQFAKMLHEAMGADSRIYLLTADLGYGI-LDDIRRDFPDRAVNVGSCEQLMIGMAVGLANSGFVPVCYSITPFLLYRPF 80
+
+Qry 277 DQIRQSVAYSGKNVKICAS 333
+        : ||  | :   |||:  |
+Tgt  81 EMIRNYVNHEKVNVKLVGS 99
+
+Frame +1, 99 cols, 33 ids (33.3%), 1 gaps (1.0%), score 126.0 (53.1 bits), Evalue 1.5e-06
+
+Query >2TBY5:01046:01014
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   147      2e-09   72%     -2       68-196(199)          20-62(0)  AAL89279.1 WSSV411 [Shrimp white spot syndrome virus]
+
+ Query 395nt >2TBY5:01046:01014
+Target  62aa >AAL89279.1 WSSV411 [Shrimp white spot syndrome virus]
+
+Qry 196 IREQKTAYGIASFSSHYTVVLLLFMRKRSRFQSNVQRKLMTNF 68
+        |   |         |||||||||||||||||||||||||||||
+Tgt  20 ISVSKNGLWYCELQSHYTVVLLLFMRKRSRFQSNVQRKLMTNF 62
+
+Frame -2, 43 cols, 31 ids (72.1%), 0 gaps (0.0%), score 147.0 (61.2 bits), Evalue 2.5e-09
+
+Query >2TBY5:01017:01147
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   147      4e-09   42%     +3         33-239(2)      926-994(390)  AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]
+
+ Query  241nt >2TBY5:01017:01147
+Target 1384aa >AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]
+
+Qry   33 KQNRLQDNDLVREQQFDINQLRHNVETKTKLLVPDQRDAYDKVMQRVNNGSGGILFLDAPGGTGKTFLI 239
+         . |   . :| ||.::|  :|   |:|   ||   |:  || .|. :.. .||: |||||||||||||.
+Tgt  926 EMNDAFNRELEREREYDHQELDLVVQTNVPLLNYQQKKVYDTLMKAIDDENGGLYFLDAPGGTGKTFLM 994
+
+Frame +3, 69 cols, 29 ids (42.0%), 0 gaps (0.0%), score 147.0 (61.2 bits), Evalue 3.7e-09
+
+Query >2TBY5:01043:03130
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   188      7e-14   54%     +1         46-273(1)      576-648(222)  AGE58933.1 calcium-transporting ATPase, plasma membrane-type [Paramecium bursaria Chlorella virus NYs1]
+
+ Query 274nt >2TBY5:01043:03130
+Target 870aa >AGE58933.1 calcium-transporting ATPase, plasma membrane-type [Paramecium bursaria Chlorella virus NYs1]
+
+Qry  46 AVANKLGIDEVYADVSPEDKNRIVKEMQDSGKLVAMAGDGINDAPALAQANVGIAMGTGTDVAMESAGITLLKGDL 273
+         :| ||   .| |  |||||  :|. |.| | .|| .||| |||||| :|.|| |||.|||:| ||| | :|  | 
+Tgt 576 VIAPKL---KVLARSSPEDKYELVQLMKDLGHVVASSGDGANDAPALKEADVGCAMGSGTDIAKESADIVILNDDF 648
+
+Frame +1, 76 cols, 41 ids (53.9%), 3 gaps (3.9%), score 188.0 (77.0 bits), Evalue 7.4e-14
+
+Query >2TBY5:01100:02923
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   223      5e-18   50%     +2          2-217(3)        14-85(269)  YP_009046670.1 Ribonucleoside-diphosphate reductase, beta subunit [Armadillidium vulgare iridescent virus]
+
+ Query 220nt >2TBY5:01100:02923
+Target 354aa >YP_009046670.1 Ribonucleoside-diphosphate reductase, beta subunit [Armadillidium vulgare iridescent virus]
+
+Qry   2 YPWAYDFWKRQQQIHWMPEEVPLGEDCRDWAQKLSDHERNLLTQIFRFFTQADVEVQDCYHDKYGRVFKPTE 217
+        ||  || |.| :. ||:| |||: || :||  :|.|.:|. || ||||||| |::| : || .|   ||  |
+Tgt  14 YPQLYDRWERHEKSHWLPHEVPMSEDVKDWKTRLNDNQRDFLTNIFRFFTQGDIDVAEAYHTEYLPFFKLPE 85
+
+Frame +2, 72 cols, 36 ids (50.0%), 0 gaps (0.0%), score 223.0 (90.5 bits), Evalue 5.2e-18
+
+Query >2TBY5:01142:03084
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   251      2e-21   81%     -3         91-261(2)      439-495(187)  AAP06678.1 env protein [Human endogenous retrovirus HCML-ARV]_vertebrate_derived
+
+ Query 263nt >2TBY5:01142:03084
+Target 682aa >AAP06678.1 env protein [Human endogenous retrovirus HCML-ARV]_vertebrate_derived
+
+Qry 261 KPSFFLLPIKTGELLGFPVYASQEKRSIAIGDWKDDEWCPERIIHYYGPATWAQDGS 91
+        | ||||||||||||||| || |.||| | ||.|||.|| ||||| ||||||| ||||
+Tgt 439 KLSFFLLPIKTGELLGFRVYTSREKRGIVIGNWKDNEWPPERIIQYYGPATWVQDGS 495
+
+Frame -3, 57 cols, 46 ids (80.7%), 0 gaps (0.0%), score 251.0 (101.3 bits), Evalue 2.3e-21
+
+Query >2TBY5:01184:01613
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   118      8e-06   42%     +3         3-209(32)      114-176(128)  YP_009238594.1 hypothetical protein [Brazilian marseillevirus]
+
+ Query 241nt >2TBY5:01184:01613
+Target 304aa >YP_009238594.1 hypothetical protein [Brazilian marseillevirus]
+
+Qry   3 NGSQLKATNDDVEANTANIATNTSNIATNTASIATNTTNITNLTDSVGDLQADALLWNETKKAFSAAHG 209
+        | . : |   ||      :||||..| |    :||||||||. |.|:     |||| |:| . ||   |
+Tgt 114 NSTNISALQGDVATLQGQVATNTTDIGTLQGQVATNTTNITSNTNSI-----DALLVNQT-QGFSILDG 176
+
+Frame +3, 69 cols, 29 ids (42.0%), 6 gaps (8.7%), score 118.0 (50.1 bits), Evalue 8.4e-06
+
+Query >2TBY5:01258:01771
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   122      2e-06   38%     +3        3-206(133)      112-177(105)  YP_007674864.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Ostreococcus lucimarinus virus OlV5]
+
+ Query 339nt >2TBY5:01258:01771
+Target 282aa >YP_007674864.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Ostreococcus lucimarinus virus OlV5]
+
+Qry   3 KIEGGSELCDLVKTLAQAGTPTCVHLGLTPQSVNVFGGYKIQGRGDAAAEKLLTDAKAVVEAGAALLV 206
+        |:||     : :|.:| .||    |||||||.    |||:|| :     ::|.. || .  .||.||.
+Tgt 112 KVEG--YFPERIKSIADSGTVVMAHLGLTPQTRAKLGGYRIQAKTRDEVDRLVSQAKGMEGSGASLLL 177
+
+Frame +3, 68 cols, 26 ids (38.2%), 2 gaps (2.9%), score 122.0 (51.6 bits), Evalue 2.5e-06
+
+Query >2TBY5:01698:02496
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   212      1e-16   54%     +3         3-212(11)      328-397(115)  ARR74957.1 glutamine-hydrolyzing asparagine synthase [Mimivirus AB-566-O17]
+
+ Query 223nt >2TBY5:01698:02496
+Target 512aa >ARR74957.1 glutamine-hydrolyzing asparagine synthase [Mimivirus AB-566-O17]
+
+Qry   3 KMVLSGEGSDEVFGGYLYFHKAPNAKELHEETVRKLLALHMYDCARANKAMSAWGVEARVPFLDKKFLVW 212
+        |..||||||||.|||||||  ||   : | | : :   || ||| ||.|.: | |:| |||||||  . :
+Tgt 328 KVLLSGEGSDELFGGYLYFKNAPTPTDFHNECIERTKNLHKYDCQRAHKSLLASGIECRVPFLDKNVVEY 397
+
+Frame +3, 70 cols, 38 ids (54.3%), 0 gaps (0.0%), score 212.0 (86.3 bits), Evalue 9.8e-17
+
+Query >2TBY5:01678:02657
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   198      8e-15   41%     -3         50-436(2)      587-695(811)  YP_009001498.1 putative ATP-binding cassette transporter [Anomala cuprea entomopoxvirus]
+
+ Query  438nt >2TBY5:01678:02657
+Target 1506aa >YP_009001498.1 putative ATP-binding cassette transporter [Anomala cuprea entomopoxvirus]
+
+Qry  436 KDYSLGMKQRLALAFALVKKPRLLILDEPTNGLDPAGIHEIRELIIKLAKEQGITVFISTHILSEVEHIADRVGIINHGQ 197
+          : | |||.:|.|  ||.  | .|||||||. :|  |  ||  ||: | |    || ||||:| | |::|| : ||| |.
+Tgt  587 NELSGGMKRKLSLGIALMTNPDVLILDEPTSSIDIEGRQEIYNLILSLNK----TVLISTHLLEEAEYLADYIIIINSGK 662
+
+Qry  196 LVYEGEIRKIQSNKWLEVRGDFRGQREVISQVLFGYPC--KMLEIQEDKLK 50
+         |.| | |  :. ||:     |             || |  |   | |.|:|
+Tgt  663 LLYYGNIIDLK-NKY-----D------------IGYICTIKNKSIDENKIK 695
+
+Frame -3, 131 cols, 54 ids (41.2%), 24 gaps (18.3%), score 198.0 (80.9 bits), Evalue 8.2e-15
+
+Query >2TBY5:01744:01512
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   146      5e-09   46%     +3         45-251(6)        307-376(3)  ANB50601.1 putative RNA methyltransferase [Powai lake megavirus]
+
+ Query 257nt >2TBY5:01744:01512
+Target 379aa >ANB50601.1 putative RNA methyltransferase [Powai lake megavirus]
+
+Qry  45 ITDPPRDGMHPKVVEQILKLSP-EKIVYVSCNSATQARDIALLKDSYELVKILPVDMFPQTHHVENIALL 251
+        | |||| |||  | | | |    : |:|||||  |  ||. :|   :::|. : ||:|| | | | | .|
+Tgt 307 IIDPPRTGMHGGVQETINKCENLDHIIYVSCNIITFKRDMDILSKCFDIVETIYVDLFPHTPHCEVIMVL 376
+
+Frame +3, 70 cols, 32 ids (45.7%), 1 gaps (1.4%), score 146.0 (60.8 bits), Evalue 5.1e-09
+
+Query >2TBY5:01727:02820
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   192      3e-14   47%     +3        105-365(3)         2-88(118)  YP_009174690.1 putative PhoH-like protein [Yellowstone lake phycodnavirus 1]
+
+ Query 368nt >2TBY5:01727:02820
+Target 206aa >YP_009174690.1 putative PhoH-like protein [Yellowstone lake phycodnavirus 1]
+
+Qry 105 IRAKTMGQRMYVNAMKRN-DLVFGIGPAGTGKTFLAVVYAAKQLRKGSVKRIVLTRPAVEAGESLGFLPGDLKEKVDPYL 341
+        | |:|: || |.  :  .  .: | |||||||| ||    .| |  | |.|:|||||||   |  |||||.| .|.:|: 
+Tgt   2 ISARTLNQRRYLELLSSHAPVIVGTGPAGTGKTLLACQVGSKALVTGQVQRLVLTRPAVSVDEQHGFLPGNLNKKMEPWT 81
+
+Qry 342 RHSMMDNI 365
+        |  | | :
+Tgt  82 R-PMFDAL 88
+
+Frame +3, 88 cols, 41 ids (46.6%), 2 gaps (2.3%), score 192.0 (78.6 bits), Evalue 3.4e-14
+
+Query >2TBY5:01754:01226
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   141      3e-08   42%     -1        42-269(66)      309-386(523)  AUS94804.1 envelope glycoprotein J [Equid alphaherpesvirus 8]
+
+ Query 335nt >2TBY5:01754:01226
+Target 909aa >AUS94804.1 envelope glycoprotein J [Equid alphaherpesvirus 8]
+
+Qry 269 AATTTASATTTT-TTSTSTTTTPVAASQAISSAPASAAVTTTASSTTTTVTTPATAE-KTANVSSAPTVAANNAAAAS 42
+         .||.| |||.| |||| ||.||  ..   |.   |   |.| ...| | .|| |||  ||  |.| |  |  . | .
+Tgt 309 TSTTSADATTSTPTTSTPTTSTPTTSTPTTSTPTTSTPTTSTPTTSTPTTSTPTTAETSTAETSTAETSTAETSTAET 386
+
+Frame -1, 78 cols, 33 ids (42.3%), 2 gaps (2.6%), score 141.0 (58.9 bits), Evalue 2.6e-08
+
+Query >2TBY5:01927:01423
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   136      4e-08   48%     -3          5-148(2)      515-562(522)  AAA92249.1 ORF B (bases 1850-5560) first start codon at 2306 [Autographa californica nucleopolyhedrovirus mutant FP-D]
+
+ Query  150nt >2TBY5:01927:01423
+Target 1084aa >AAA92249.1 ORF B (bases 1850-5560) first start codon at 2306 [Autographa californica nucleopolyhedrovirus mutant FP-D]
+
+Qry  148 KWLMNLQQPSGRLARWVLELQQYDFEIRYRKGSLNKVADALSRYPVES 5
+         .|:|||. |. |: || | | :||| : |:||  |  ||||||  : .
+Tgt  515 QWMMNLKDPNSRMTRWRLRLSEYDFSVVYKKGKSNTNADALSRVEIHT 562
+
+Frame -3, 48 cols, 23 ids (47.9%), 0 gaps (0.0%), score 136.0 (57.0 bits), Evalue 4.3e-08
+
+Query >2TBY5:01907:03000
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   204      9e-16   54%     +3         42-269(1)         7-84(373)  SOB74223.1 adenylosuccinate synthetase [Cedratvirus lausannensis]
+
+ Query 270nt >2TBY5:01907:03000
+Target 457aa >SOB74223.1 adenylosuccinate synthetase [Cedratvirus lausannensis]
+
+Qry  42 VVVGTQWGDEGKGKITDFLAEQAD--VIARFSGGNNAGHTIQFGGETYKLHLVPSGIFYKDKLAVIGNGVVVDPVALL 269
+         |:|| .|||||||: |:||   |  |||| .||.|. |||   |:||  |||||||   .   .:|||.|:| | ||
+Tgt   7 AVIGTFFGDEGKGKLVDYLASTKDFSVIARSAGGSNSAHTISHQGQTYTSHLVPSGILGCNANCLLGNGMVIDLVFLL 84
+
+Frame +3, 78 cols, 42 ids (53.8%), 2 gaps (2.6%), score 204.0 (83.2 bits), Evalue 9.1e-16
+
+Query >SPIKE:1
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   602      8e-62  100%     +2          2-313(1)      435-538(347)  ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+ Query 314nt >SPIKE:1
+Target 885aa >ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+Qry   2 TGWLAGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPV 241
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 435 TGWLAGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPV 514
+
+Qry 242 VVGTTDRSGAPTYSWGANDTDVFV 313
+        ||||||||||||||||||||||||
+Tgt 515 VVGTTDRSGAPTYSWGANDTDVFV 538
+
+Frame +2, 104 cols, 104 ids (100.0%), 0 gaps (0.0%), score 602.0 (236.5 bits), Evalue 8.4e-62
+
+Query >SPIKE:8
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   598      2e-61  100%     +2          2-310(3)      435-537(348)  ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:8
+Target 885aa >ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+Qry   2 TGWLAGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPV 241
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 435 TGWLAGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPV 514
+
+Qry 242 VVGTTDRSGAPTYSWGANDTDVF 310
+        |||||||||||||||||||||||
+Tgt 515 VVGTTDRSGAPTYSWGANDTDVF 537
+
+Frame +2, 103 cols, 103 ids (100.0%), 0 gaps (0.0%), score 598.0 (235.0 bits), Evalue 2.4e-61
+
+Query >SPIKE:19
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   574      1e-58   98%     +1         10-312(1)      438-538(347)  ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:19
+Target 885aa >ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+Qry  10 VSGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVG 249
+        ..||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 438 LAGLFYQHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVG 517
+
+Qry 250 TTDRSGAPTYSWGANDTDVFV 312
+        |||||||||||||||||||||
+Tgt 518 TTDRSGAPTYSWGANDTDVFV 538
+
+Frame +1, 101 cols, 99 ids (98.0%), 0 gaps (0.0%), score 574.0 (225.7 bits), Evalue 1.5e-58
+
+Query >SPIKE:20
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   544      4e-55   99%     +1         28-312(1)      444-538(347)  ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:20
+Target 885aa >ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+Qry  28 SHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVGTTDRSG 267
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 444 QHKFNSSGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVGTTDRSG 523
+
+Qry 268 APTYSWGANDTDVFV 312
+        |||||||||||||||
+Tgt 524 APTYSWGANDTDVFV 538
+
+Frame +1, 95 cols, 94 ids (98.9%), 0 gaps (0.0%), score 544.0 (214.2 bits), Evalue 4.5e-55
+
+Query >SPIKE:21
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   515      1e-51  100%     +1         46-312(1)      450-538(347)  ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:21
+Target 885aa >ACA53550.1 polyprotein, partial [Hepacivirus C]
+
+Qry  46 SGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVGTTDRSGAPTYSW 285
+        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 450 SGCPERLASCRRLTDFAQGWGPISYANGSGLDERPYCWHYPPRPCGIVPAKSVCGPVYCFTPSPVVVGTTDRSGAPTYSW 529
+
+Qry 286 GANDTDVFV 312
+        |||||||||
+Tgt 530 GANDTDVFV 538
+
+Frame +1, 89 cols, 89 ids (100.0%), 0 gaps (0.0%), score 515.0 (203.0 bits), Evalue 1e-51
+
+Query >SPIKE:22
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   295      3e-26   76%     +2         2-223(90)         61-134(0)  AAV84427.1 envelope glycoprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:22
+Target 134aa >AAV84427.1 envelope glycoprotein, partial [Hepacivirus C]
+
+Qry   2 TGWLAGLFYQHKFNSSGCPEGWPAADALPILPRAGVLSVMPTEAASTNAPTAGTTLQDLVALCPQRACVARYIA 223
+        ||||||||| .:|||||||| ||||:||| | |||  | || ||| | ||||||| |.|| ||||| |||| ||
+Tgt  61 TGWLAGLFYHNRFNSSGCPERWPAAEALPTLTRAGAPSAMPMEAAPTTAPTAGTTPQNLVVLCPQRTCVARCIA 134
+
+Frame +2, 74 cols, 56 ids (75.7%), 0 gaps (0.0%), score 295.0 (118.2 bits), Evalue 3.3e-26
+
+Query >SPIKE:23
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   294      4e-26   77%     +2         2-223(90)        118-191(0)  AAM96077.2 polyprotein, partial [Hepacivirus C]
+
+ Query 313nt >SPIKE:23
+Target 191aa >AAM96077.2 polyprotein, partial [Hepacivirus C]
+
+Qry   2 TGWLAGLFYQHKFNSSGCPERLASCRRLPILPRAGVLSVMPTEAASTNAPTAGTTLQDLVALCPQRACVARYIA 223
+        |||.||||| |||||||| |||||||||    .    ||||||||.||||||||| |||| |||| ||| ||||
+Tgt 118 TGWVAGLFYHHKFNSSGCSERLASCRRLTDYAQGWAPSVMPTEAAATNAPTAGTTPQDLVVLCPQGACVVRYIA 191
+
+Frame +2, 74 cols, 57 ids (77.0%), 0 gaps (0.0%), score 294.0 (117.9 bits), Evalue 4.3e-26
+
+Query >SPIKE:24
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   980     2e-105   98%     +2          2-520(1)       371-543(33)  ACO06782.1 polyprotein, partial [Hepacivirus C]
+
+ Query 521nt >SPIKE:24
+Target 576aa >ACO06782.1 polyprotein, partial [Hepacivirus C]
+
+Qry   2 NTRPPLGNWFGCTWMNSTGFTKVCGAPPCVIGGVGNNTLLCPTDCFRKHPEATYSRCGSGPWITPRCMVDYPYRLWHYPC 241
+        ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||:||||||||||||
+Tgt 371 NTRPPLGNWFGCTWMNSTGFTKVCGAPPCAIGGVGNNTLLCPTDCFRKHPEATYSRCGSGPWITPRCLVDYPYRLWHYPC 450
+
+Qry 242 TINYTIFKVRMYVGGVEHRLEAACNWTRGERCDLEDRDRSELSPLLLSTTQWQVLPCSFTTLPALSTGLIHLHQNIVDVQ 481
+        ||||||||||||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt 451 TINYTIFKVRMYVGGVEHRLDAACNWTRGERCDLEDRDRSELSPLLLSTTQWQVLPCSFTTLPALSTGLIHLHQNIVDVQ 530
+
+Qry 482 YLYGVGSSIASWA 520
+        |||||||||||||
+Tgt 531 YLYGVGSSIASWA 543
+
+Frame +2, 173 cols, 170 ids (98.3%), 0 gaps (0.0%), score 980.0 (382.1 bits), Evalue 2.1e-105
+
+Query >SPIKE:269
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   570      5e-58   99%     +2          2-331(0)      700-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  331nt >SPIKE:269
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALDTEVAASCGGVVLVG 331
+         ||||||||||||||||||||||||||||||
+Tgt  780 LLLLLLALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +2, 110 cols, 109 ids (99.1%), 0 gaps (0.0%), score 570.0 (224.2 bits), Evalue 4.6e-58
+
+Query >SPIKE:281
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   438      9e-43   97%     +1         70-330(0)     739-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:281
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   70 VTISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASC 309
+         . ||||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  739 LLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASC 818
+
+Qry  310 GGVVLVG 330
+         |||||||
+Tgt  819 GGVVLVG 825
+
+Frame +1, 87 cols, 84 ids (96.6%), 0 gaps (0.0%), score 438.0 (173.3 bits), Evalue 9.2e-43
+
+Query >SPIKE:282
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   430      8e-42   86%     +1         34-330(0)     732-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:282
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   34 CRRARLLLLVDDVTHIQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQR 273
+         |    ::||:      ||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  732 CACLWMMLLI-----SQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQR 806
+
+Qry  274 AYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||
+Tgt  807 AYALDTEVAASCGGVVLVG 825
+
+Frame +1, 99 cols, 85 ids (85.9%), 5 gaps (5.1%), score 430.0 (170.2 bits), Evalue 7.8e-42
+
+Query >SPIKE:283
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   499      8e-50   99%     +1         43-330(0)      714-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:283
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   43 RVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYA 282
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Tgt  714 RVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLLLLLALPQRAYA 793
+
+Qry  283 LDTEVAASCGGVVLVG 330
+         ||||||||||||||||
+Tgt  794 LDTEVAASCGGVVLVG 809
+
+Frame +1, 96 cols, 95 ids (99.0%), 0 gaps (0.0%), score 499.0 (196.8 bits), Evalue 7.8e-50
+
+Query >SPIKE:284
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   521      2e-52   96%     +1         19-330(0)        722-825(3)  ADC54674.1 polyprotein, partial [Hepatitis C virus subtype 1a]
+
+ Query 330nt >SPIKE:284
+Target 828aa >ADC54674.1 polyprotein, partial [Hepatitis C virus subtype 1a]
+
+Qry  19 PVPLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLL 258
+        |  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||:||||||| ||||||||||||
+Tgt 722 PFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGKWVPGAVYTFYGMWPLLLLLL 801
+
+Qry 259 ALPQRAYALDTEVAASCGGVVLVG 330
+        ||||||||||||||||||||||||
+Tgt 802 ALPQRAYALDTEVAASCGGVVLVG 825
+
+Frame +1, 104 cols, 100 ids (96.2%), 0 gaps (0.0%), score 521.0 (205.3 bits), Evalue 2.2e-52
+
+Query >SPIKE:285
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   456      6e-45   99%     +1         64-330(0)     737-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:285
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   64 MMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAA 303
+         ||||||||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  737 MMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAA 816
+
+Qry  304 SCGGVVLVG 330
+         |||||||||
+Tgt  817 SCGGVVLVG 825
+
+Frame +1, 89 cols, 88 ids (98.9%), 0 gaps (0.0%), score 456.0 (180.3 bits), Evalue 6.1e-45
+
+Query >SPIKE:286
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   492      5e-49   97%     +1         46-330(0)     731-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:286
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   46 LCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYAL 285
+         :|.|||||||||||||||||||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  731 ICACLWMMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYAL 810
+
+Qry  286 DTEVAASCGGVVLVG 330
+         |||||||||||||||
+Tgt  811 DTEVAASCGGVVLVG 825
+
+Frame +1, 95 cols, 92 ids (96.8%), 0 gaps (0.0%), score 492.0 (194.1 bits), Evalue 5e-49
+
+Query >SPIKE:287
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   490      9e-49   98%     +1         49-330(0)     732-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:287
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   49 CSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALD 288
+         |.|||||||||||||||||||:||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  732 CACLWMMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALD 811
+
+Qry  289 TEVAASCGGVVLVG 330
+         ||||||||||||||
+Tgt  812 TEVAASCGGVVLVG 825
+
+Frame +1, 94 cols, 92 ids (97.9%), 0 gaps (0.0%), score 490.0 (193.4 bits), Evalue 8.6e-49
+
+Query >SPIKE:295
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   514      1e-51   98%     +1         31-330(0)      710-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:295
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   31 VADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQ 270
+         .|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||
+Tgt  710 LADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLLLLLALPQ 789
+
+Qry  271 RAYALDTEVAASCGGVVLVG 330
+         ||||||||||||||||||||
+Tgt  790 RAYALDTEVAASCGGVVLVG 809
+
+Frame +1, 100 cols, 98 ids (98.0%), 0 gaps (0.0%), score 514.0 (202.6 bits), Evalue 1.4e-51
+
+Query >SPIKE:298
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   547      2e-55   99%     +1         10-330(0)      703-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:298
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   10 VVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLL 249
+         |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||
+Tgt  703 VVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLL 782
+
+Qry  250 LLLALPQRAYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||||||||||
+Tgt  783 LLLALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +1, 107 cols, 106 ids (99.1%), 0 gaps (0.0%), score 547.0 (215.3 bits), Evalue 2.1e-55
+
+Query >SPIKE:299
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   499      8e-50   99%     +1         43-330(0)      714-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:299
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   43 RVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYA 282
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Tgt  714 RVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLLLLLALPQRAYA 793
+
+Qry  283 LDTEVAASCGGVVLVG 330
+         ||||||||||||||||
+Tgt  794 LDTEVAASCGGVVLVG 809
+
+Frame +1, 96 cols, 95 ids (99.0%), 0 gaps (0.0%), score 499.0 (196.8 bits), Evalue 7.8e-50
+
+Query >SPIKE:302
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   497      1e-49   98%     +2         2-289(41)      700-795(840)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:302
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALE 289
+         |||||||||||||||:
+Tgt  780 LLLLLLALPQRAYALD 795
+
+Frame +2, 96 cols, 94 ids (97.9%), 0 gaps (0.0%), score 497.0 (196.1 bits), Evalue 1.3e-49
+
+Query >SPIKE:303
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   525      7e-53   94%     +2          2-325(5)      700-807(828)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:303
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALDTEVAACVAALFL 325
+         |||||||||||||||||||||    . |
+Tgt  780 LLLLLLALPQRAYALDTEVAASCGGVVL 807
+
+Frame +2, 108 cols, 101 ids (93.5%), 0 gaps (0.0%), score 525.0 (206.8 bits), Evalue 7.4e-53
+
+Query >SPIKE:304
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   546      3e-55   96%     +2          2-325(5)      700-807(828)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:304
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALDTEVAASCGALFL 325
+         |||||||||||||||||||||||| . |
+Tgt  780 LLLLLLALPQRAYALDTEVAASCGGVVL 807
+
+Frame +2, 108 cols, 104 ids (96.3%), 0 gaps (0.0%), score 546.0 (214.9 bits), Evalue 2.7e-55
+
+Query >SPIKE:305
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   530      2e-53   94%     +2          2-325(5)      700-807(828)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:305
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALDTEVAASVAALFL 325
+         ||||||||||||||||||||||   . |
+Tgt  780 LLLLLLALPQRAYALDTEVAASCGGVVL 807
+
+Frame +2, 108 cols, 102 ids (94.4%), 0 gaps (0.0%), score 530.0 (208.8 bits), Evalue 2e-53
+
+Query >SPIKE:306
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   487      2e-48   99%     +2         2-280(50)      700-792(843)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:306
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAY 280
+         |||||||||||||
+Tgt  780 LLLLLLALPQRAY 792
+
+Frame +2, 93 cols, 92 ids (98.9%), 0 gaps (0.0%), score 487.0 (192.2 bits), Evalue 1.9e-48
+
+Query >SPIKE:307
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   467      4e-46   98%     +2         2-271(59)      700-789(846)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:307
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPR 271
+         |||||||||.
+Tgt  780 LLLLLLALPQ 789
+
+Frame +2, 90 cols, 88 ids (97.8%), 0 gaps (0.0%), score 467.0 (184.5 bits), Evalue 4e-46
+
+Query >SPIKE:309
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   509      5e-51   98%     +1         34-330(0)      711-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:309
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   34 CDARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQR 273
+          ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Tgt  711 ADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLLLLLALPQR 790
+
+Qry  274 AYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||
+Tgt  791 AYALDTEVAASCGGVVLVG 809
+
+Frame +1, 99 cols, 97 ids (98.0%), 0 gaps (0.0%), score 509.0 (200.7 bits), Evalue 5.4e-51
+
+Query >SPIKE:310
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   561      5e-57   98%     +2          2-331(0)      700-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  331nt >SPIKE:310
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    2 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWP 241
+         |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||
+Tgt  700 WEYVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWP 779
+
+Qry  242 LLLLLLALPQRAYALDTEVAASCGGVVLVG 331
+         ||||||||||||||||||||||||||||||
+Tgt  780 LLLLLLALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +2, 110 cols, 108 ids (98.2%), 0 gaps (0.0%), score 561.0 (220.7 bits), Evalue 5e-57
+
+Query >SPIKE:335
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   447      7e-44   98%     +2         65-331(0)     737-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  331nt >SPIKE:335
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   65 MMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAA 304
+         ||||||||||||| ||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  737 MMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAA 816
+
+Qry  305 SCGGVVLVG 331
+         |||||||||
+Tgt  817 SCGGVVLVG 825
+
+Frame +2, 89 cols, 87 ids (97.8%), 0 gaps (0.0%), score 447.0 (176.8 bits), Evalue 6.7e-44
+
+Query >SPIKE:351
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   385      1e-36   99%     +1        112-330(0)     753-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:351
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry  112 ILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASCGGVVLVG 330
+         :||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  753 VLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASCGGVVLVG 825
+
+Frame +1, 73 cols, 72 ids (98.6%), 0 gaps (0.0%), score 385.0 (152.9 bits), Evalue 1.3e-36
+
+Query >SPIKE:352
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   434      3e-42   97%     +1         70-330(0)     739-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:352
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   70 VLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASC 309
+         .|||||||||| ||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  739 LLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAYALDTEVAASC 818
+
+Qry  310 GGVVLVG 330
+         |||||||
+Tgt  819 GGVVLVG 825
+
+Frame +1, 87 cols, 84 ids (96.6%), 0 gaps (0.0%), score 434.0 (171.8 bits), Evalue 2.7e-42
+
+Query >SPIKE:353
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   312      3e-28   97%     +2        65-247(83)     737-797(2142)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:353
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   65 MMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLL 247
+         ||||||||||||| ||:||||||||||||||||||||||||||||||||||||||||||||
+Tgt  737 MMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLL 797
+
+Frame +2, 61 cols, 59 ids (96.7%), 0 gaps (0.0%), score 312.0 (124.8 bits), Evalue 3e-28
+
+Query >SPIKE:356
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   316      1e-28   97%     +2        65-250(80)     737-798(2141)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:356
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   65 MMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLL 250
+         ||||||||||||| ||:|||||||||||||||||||||||||||||||||||||||||||||
+Tgt  737 MMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLL 798
+
+Frame +2, 62 cols, 60 ids (96.8%), 0 gaps (0.0%), score 316.0 (126.3 bits), Evalue 1e-28
+
+Query >SPIKE:357
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   538      2e-54   98%     +1         10-330(0)      703-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:357
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   10 VVLLFLLLADARVCSCLWMMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLL 249
+         ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||
+Tgt  703 VVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLL 782
+
+Qry  250 LLLALPQRAYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||||||||||
+Tgt  783 LLLALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +1, 107 cols, 105 ids (98.1%), 0 gaps (0.0%), score 538.0 (211.8 bits), Evalue 2.3e-54
+
+Query >SPIKE:361
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   396      7e-38   79%     +1         34-330(0)     732-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:361
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   34 CRRARLLLLVDDVTHIPSGGGFEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQR 273
+         |    ::||:            | ||:|||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  732 CACLWMMLLISQAE-----AALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQR 806
+
+Qry  274 AYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||
+Tgt  807 AYALDTEVAASCGGVVLVG 825
+
+Frame +1, 99 cols, 78 ids (78.8%), 5 gaps (5.1%), score 396.0 (157.1 bits), Evalue 6.8e-38
+
+Query >SPIKE:362
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   471      1e-46   95%     +1         43-330(0)     729-825(2114)  AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:362
+Target 2939aa >AFU90682.1 polyprotein, partial [Hepacivirus C]
+
+Qry   43 ARLL-CLWMMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAY 279
+         ||:  |||||||||||||||| ||:|||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Tgt  729 ARICACLWMMLLISQAEAALENLVVLNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLLLALPQRAY 808
+
+Qry  280 ALDTEVAASCGGVVLVG 330
+         |||||||||||||||||
+Tgt  809 ALDTEVAASCGGVVLVG 825
+
+Frame +1, 97 cols, 92 ids (94.8%), 1 gaps (1.0%), score 471.0 (186.0 bits), Evalue 1.4e-46
+
+Query >SPIKE:363
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   530      2e-53   98%     +1         16-330(0)      705-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:363
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry   16 LLFLLLADARVCSCLWMMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLLLLL 255
+         ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||
+Tgt  705 LLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLLLLL 784
+
+Qry  256 LALPQRAYALDTEVAASCGGVVLVG 330
+         |||||||||||||||||||||||||
+Tgt  785 LALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +1, 105 cols, 103 ids (98.1%), 0 gaps (0.0%), score 530.0 (208.8 bits), Evalue 2e-53
+
+Query >SPIKE:366
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   545      4e-55   98%     +1          7-330(0)      702-809(826)  AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+ Query  330nt >SPIKE:366
+Target 1635aa >AFQ53273.1 polyprotein, partial [Hepacivirus C]
+
+Qry    7 YVVLLFLLLADARVCSCLWMMLLISQAEAALEILVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAVYAFYGMWPLL 246
+         |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||
+Tgt  702 YVVLLFLLLADARVCSCLWMMLLISQAEAALENLVILNAASLAGTHGLVSFLVFFCFAWYLKGRWVPGAAYAFYGMWPLL 781
+
+Qry  247 LLLLALPQRAYALDTEVAASCGGVVLVG 330
+         ||||||||||||||||||||||||||||
+Tgt  782 LLLLALPQRAYALDTEVAASCGGVVLVG 809
+
+Frame +1, 108 cols, 106 ids (98.1%), 0 gaps (0.0%), score 545.0 (214.5 bits), Evalue 3.6e-55
+
+Query >SPIKE:367
+ Score     Evalue   %Id  Frame    QueryLo-Hi(Un)   TargetLo-Hi(Un)  Target
+   166      1e-11  100%     +2        233-331(0)     793-825(2162)  AOO35394.1 polyprotein, partial [Hepacivirus C]
+
+ Query  331nt >SPIKE:367
+Target 2987aa >AOO35394.1 polyprotein, partial [Hepacivirus C]
+
+Qry  233 MWPLLLLLLALPQRAYALDTEVAASCGGVVLVG 331
+         |||||||||||||||||||||||||||||||||
+Tgt  793 MWPLLLLLLALPQRAYALDTEVAASCGGVVLVG 825
+
+Frame +2, 33 cols, 33 ids (100.0%), 0 gaps (0.0%), score 166.0 (68.6 bits), Evalue 9.6e-12

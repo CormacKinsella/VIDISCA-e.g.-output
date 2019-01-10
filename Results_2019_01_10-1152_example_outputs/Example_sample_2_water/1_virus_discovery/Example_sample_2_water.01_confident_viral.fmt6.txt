@@ -1,0 +1,69 @@
+SPIKE:78	ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]	99.4	172	1	0	3	518	201	372	5.8e-100	364.0
+SPIKE:106	ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]	98.8	172	2	0	3	518	201	372	2.2e-99	362.1
+SPIKE:107	ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]	98.8	172	2	0	3	518	201	372	2.9e-99	361.7
+SPIKE:109	ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]	98.8	172	2	0	3	518	258	429	1.3e-99	362.8
+SPIKE:110	AOZ19785.1 pol protein, partial [Human immunodeficiency virus 1]	100.0	134	0	0	3	404	257	390	6.2e-76	283.9
+SPIKE:113	ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]	97.2	142	4	0	3	428	201	342	4.3e-77	287.7
+SPIKE:118	BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]	93.6	140	9	0	3	422	211	350	4.5e-74	277.7
+SPIKE:122	AGW48438.1 pol protein, partial [Human immunodeficiency virus 1]	100.0	102	0	0	3	308	201	302	2.2e-54	211.8
+SPIKE:123	ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]	98.1	162	3	0	3	488	201	362	7.1e-92	337.0
+SPIKE:131	ACU55466.1 pol protein, partial [Human immunodeficiency virus 1]	99.4	162	1	0	3	488	258	419	2.9e-93	341.7
+SPIKE:134	ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]	97.2	142	4	0	3	428	201	342	9.6e-77	286.6
+SPIKE:135	BAO23123.1 Gag-Pol polyprotein, partial [Human immunodeficiency virus 1]	93.6	140	9	0	3	422	211	350	4.5e-74	277.7
+SPIKE:136	ABJ91338.1 reverse transcriptase, partial [Human immunodeficiency virus 1]	100.0	110	0	0	188	517	263	372	1.4e-62	239.2
+SPIKE:140	ACI39920.1 pol protein, partial [Human immunodeficiency virus 1]	100.0	110	0	0	188	517	319	428	1.4e-62	239.2
+SPIKE:141	AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]	97.2	142	4	0	3	428	198	339	4.6e-79	294.3
+SPIKE:142	AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]	98.6	142	2	0	3	428	198	339	2.5e-80	298.5
+SPIKE:143	ACW58890.1 pol protein, partial [Human immunodeficiency virus 1]	98.1	158	3	0	3	476	201	358	5e-90	330.9
+SPIKE:146	ABJ93856.1 pol protein, partial [Human immunodeficiency virus 1]	93.6	171	11	0	3	515	201	371	2e-92	339.0
+SPIKE:149	AFZ77873.1 pol protein, partial [Human immunodeficiency virus 1]	98.7	158	2	0	3	476	257	414	4.5e-91	334.3
+SPIKE:150	AEJ81247.1 pol protein, partial [Human immunodeficiency virus 1]	97.9	142	3	0	3	428	198	339	9.3e-80	296.6
+SPIKE:152	ACC52125.1 truncated pol protein, partial [Human immunodeficiency virus 1]	95.8	142	6	0	3	428	201	342	1.8e-75	282.3
+SPIKE:153	ACC50649.1 truncated pol protein, partial [Human immunodeficiency virus 1]	97.9	142	3	0	3	428	201	342	6.7e-78	290.4
+SPIKE:156	AAS37913.1 pol protein, partial [Human immunodeficiency virus 1]	100.0	110	0	0	188	517	263	372	1.4e-62	239.2
+SPIKE:157	AGW49095.1 pol protein, partial [Human immunodeficiency virus 1]	87.8	172	6	1	3	473	201	372	1.9e-86	318.9
+SPIKE:158	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	255	710	12	163	3.1e-89	328.2
+SPIKE:180	1102247D protein sor [Human immunodeficiency virus 1]	98.3	116	2	0	255	602	12	127	2.2e-66	251.9
+SPIKE:182	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:183	1102247D protein sor [Human immunodeficiency virus 1]	100.0	143	0	0	255	683	12	154	1.3e-84	312.8
+SPIKE:184	1102247D protein sor [Human immunodeficiency virus 1]	99.2	119	1	0	353	709	45	163	1.7e-67	255.8
+SPIKE:185	1102247D protein sor [Human immunodeficiency virus 1]	96.9	131	4	0	317	709	33	163	7.1e-74	276.9
+SPIKE:186	1102247D protein sor [Human immunodeficiency virus 1]	100.0	144	0	0	255	686	12	155	4.5e-85	314.3
+SPIKE:188	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	81.7	241	34	3	2	709	901	1136	2.6e-111	402.1
+SPIKE:189	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	81.3	241	35	3	2	709	901	1136	3.4e-111	401.7
+SPIKE:190	1102247D protein sor [Human immunodeficiency virus 1]	100.0	121	0	0	347	709	43	163	4e-69	261.2
+SPIKE:191	1102247D protein sor [Human immunodeficiency virus 1]	100.0	123	0	0	255	623	12	134	8.2e-72	270.0
+SPIKE:194	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:195	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:197	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	87.3	236	30	0	2	709	901	1136	6.6e-123	440.7
+SPIKE:205	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:206	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:207	1102247D protein sor [Human immunodeficiency virus 1]	100.0	122	0	0	344	709	42	163	1.4e-69	262.7
+SPIKE:208	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	255	710	12	163	3.1e-89	328.2
+SPIKE:218	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	82.2	236	42	0	2	709	901	1136	6.9e-112	404.1
+SPIKE:219	1102247D protein sor [Human immunodeficiency virus 1]	100.0	124	0	0	338	709	40	163	5.3e-71	267.3
+SPIKE:220	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	82.2	236	42	0	2	709	901	1136	1.5e-111	402.9
+SPIKE:221	1102247D protein sor [Human immunodeficiency virus 1]	100.0	98	0	0	255	548	12	109	2.3e-56	218.4
+SPIKE:223	AFB38796.1 pol protein, partial [Human immunodeficiency virus 1]	82.0	239	37	2	2	709	901	1136	3.4e-111	401.7
+SPIKE:224	1102247D protein sor [Human immunodeficiency virus 1]	96.6	116	4	0	255	602	12	127	5.4e-65	247.3
+SPIKE:225	1102247D protein sor [Human immunodeficiency virus 1]	97.6	127	3	0	329	709	37	163	9.6e-71	266.5
+SPIKE:227	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:228	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:229	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	254	709	12	163	3.1e-89	328.2
+SPIKE:230	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	254	709	12	163	3.1e-89	328.2
+SPIKE:231	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:232	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:233	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	254	709	12	163	3.1e-89	328.2
+SPIKE:234	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	254	709	12	163	3.1e-89	328.2
+SPIKE:235	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	254	709	12	163	3.1e-89	328.2
+SPIKE:236	1102247D protein sor [Human immunodeficiency virus 1]	100.0	114	0	0	368	709	50	163	2e-64	245.4
+SPIKE:237	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:238	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:239	1102247D protein sor [Human immunodeficiency virus 1]	100.0	142	0	0	255	680	12	153	6.5e-84	310.5
+SPIKE:240	1102247D protein sor [Human immunodeficiency virus 1]	100.0	144	0	0	255	686	12	155	4.5e-85	314.3
+SPIKE:241	P04587.3 Gag-Pol polyprotein [Human immunodeficiency virus type 1 (BH5 ISOLATE)]	100.0	102	0	0	2	307	1346	1447	1.4e-53	209.1
+SPIKE:242	1102247D protein sor [Human immunodeficiency virus 1]	99.1	108	1	0	255	578	12	119	1.5e-61	235.7
+SPIKE:243	1102247D protein sor [Human immunodeficiency virus 1]	99.3	152	1	0	255	710	12	163	1.5e-88	325.9
+SPIKE:244	1102247D protein sor [Human immunodeficiency virus 1]	98.0	100	2	0	255	554	12	111	3.9e-56	217.6
+SPIKE:251	1102247D protein sor [Human immunodeficiency virus 1]	100.0	152	0	0	252	707	12	163	3.1e-89	328.2
+SPIKE:433	NP_045010.1 polyprotein precursor [Pegivirus A]	100.0	274	0	0	2	823	129	402	8.4e-170	596.7

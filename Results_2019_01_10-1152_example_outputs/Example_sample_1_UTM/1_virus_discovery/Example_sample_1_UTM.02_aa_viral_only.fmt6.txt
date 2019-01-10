@@ -1,0 +1,14 @@
+2TBY5:00042:02253	YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]	55.4	83	37	0	250	2	432	514	1.3e-20	99.4
+2TBY5:00297:01399	YP_003406960.1 hypothetical protein [Marseillevirus marseillevirus]	35.7	84	47	1	239	9	6	89	1.5e-07	55.8
+2TBY5:00288:02787	YP_009119098.1 orotate phosphoribosyltransferase [Pandoravirus inopinatum]	41.2	97	53	1	299	21	106	202	3.3e-15	81.6
+2TBY5:00361:01655	NP_043933.1 hypothetical protein [Strawberry vein banding virus]	53.8	93	35	2	28	282	279	371	3.9e-19	94.7
+2TBY5:00415:02918	AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]	41.3	104	57	1	27	326	655	758	9.8e-16	83.6
+2TBY5:00479:01265	NP_077550.1 EsV-1-65 [Ectocarpus siliculosus virus 1]	30.3	99	68	1	302	9	463	561	5.2e-08	57.8
+2TBY5:00495:01542	ANB50825.1 hypothetical protein [Powai lake megavirus]	44.6	56	29	1	15	176	25	80	9.9e-05	46.2
+2TBY5:00517:01207	AGE55627.1 D-lactate dehydrogenase [Acanthocystis turfacea Chlorella virus MN0810.1]	48.3	58	25	1	161	3	220	277	4.8e-08	57.0
+2TBY5:00693:01633	AGO14404.1 hypothetical protein [Cotesia sesamiae Mombasa bracovirus]	32.7	150	95	1	12	443	599	748	1.2e-16	87.0
+2TBY5:00782:03011	ATZ80629.1 adenylosuccinate lyase [Bodo saltans virus]	40.0	110	65	1	3	332	100	208	1.3e-12	73.2
+2TBY5:01017:01147	AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]	42.0	69	40	0	33	239	926	994	3.7e-09	61.2
+2TBY5:01258:01771	YP_007674864.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Ostreococcus lucimarinus virus OlV5]	38.2	68	40	1	3	206	112	177	2.5e-06	51.6
+2TBY5:01744:01512	ANB50601.1 putative RNA methyltransferase [Powai lake megavirus]	45.7	70	37	1	45	251	307	376	5.1e-09	60.8
+2TBY5:01927:01423	AAA92249.1 ORF B (bases 1850-5560) first start codon at 2306 [Autographa californica nucleopolyhedrovirus mutant FP-D]	47.9	48	25	0	148	5	515	562	4.3e-08	57.0

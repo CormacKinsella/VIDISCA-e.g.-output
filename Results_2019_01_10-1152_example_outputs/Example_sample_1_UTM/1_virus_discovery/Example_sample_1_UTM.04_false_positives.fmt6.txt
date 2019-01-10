@@ -1,0 +1,24 @@
+2TBY5:00068:00677	YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]	31.6	79	36	2	1	189	398	474	8e-07	53.1
+2TBY5:00170:00936	AAC59461.1 HERV-E envelope protein, partial [Human endogenous retrovirus]	64.8	54	18	1	3	164	7	59	1.3e-13	75.5
+2TBY5:00151:01819	YP_003970135.1 putative bifunctional dihydrofolate reductase/thymidylate synthase [Cafeteria roenbergensis virus BV-PW1 BV-PW1]	33.3	126	73	3	28	378	207	330	4.3e-15	81.6
+2TBY5:00289:00768	YP_004061441.1 hypothetical protein [Bathycoccus sp. RCC1105 virus BpV1]	42.9	70	38	2	1	207	445	513	6.6e-07	53.9
+2TBY5:00289:02516	YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]	52.6	57	26	1	1	168	293	349	1.9e-07	55.1
+2TBY5:00339:01254	AFC34919.1 hypothetical protein [Ostreococcus tauri virus RT-2011]	38.8	85	51	1	1	255	364	447	3.3e-11	68.2
+2TBY5:00304:01473	Q9HDB9.3 Endogenous retrovirus group K member 5 Gag polyprotein [Homo sapiens]_vertebrate_derived	41.2	85	45	1	242	3	462	546	4.5e-15	80.9
+2TBY5:00438:01336	AAL87856.1 pol protein [Porcine endogenous retrovirus]	57.5	40	17	0	6	125	924	963	3.4e-06	50.4
+2TBY5:00449:02267	AHC55379.1 polymerase, partial [Reticuloendotheliosis virus]	53.7	41	19	0	125	3	230	270	6.5e-05	46.2
+2TBY5:00631:02869	YP_009165054.1 Amidophosphoribosyltransferase [Mollivirus sibericum]	34.0	100	53	3	262	2	128	227	1.6e-09	62.8
+2TBY5:00673:02262	AUV58299.1 isoleucyl-tRNA synthetase [Bandra megavirus]	34.7	72	46	1	10	222	418	489	8.2e-11	66.6
+2TBY5:00738:00985	ANB51141.1 adenylosuccinate synthetase [Powai lake megavirus]	50.7	73	34	1	232	20	13	85	1.2e-13	76.3
+2TBY5:00714:02804	AEE09607.1 putative DNA helicase [Cotesia vestalis bracovirus]	76.9	65	15	0	1	195	626	690	3.1e-23	107.8
+2TBY5:00929:03259	YP_009174618.1 hypothetical protein [Yellowstone lake phycodnavirus 2]	33.3	99	65	1	37	333	2	99	1.5e-06	53.1
+2TBY5:01046:01014	AAL89279.1 WSSV411 [Shrimp white spot syndrome virus]	72.1	43	12	0	196	68	20	62	2.5e-09	61.2
+2TBY5:01043:03130	AGE58933.1 calcium-transporting ATPase, plasma membrane-type [Paramecium bursaria Chlorella virus NYs1]	53.9	76	32	1	46	273	576	648	7.4e-14	77.0
+2TBY5:01100:02923	YP_009046670.1 Ribonucleoside-diphosphate reductase, beta subunit [Armadillidium vulgare iridescent virus]	50.0	72	36	0	2	217	14	85	5.2e-18	90.5
+2TBY5:01142:03084	AAP06678.1 env protein [Human endogenous retrovirus HCML-ARV]_vertebrate_derived	80.7	57	11	0	261	91	439	495	2.3e-21	101.3
+2TBY5:01184:01613	YP_009238594.1 hypothetical protein [Brazilian marseillevirus]	42.0	69	34	2	3	209	114	176	8.4e-06	50.1
+2TBY5:01698:02496	ARR74957.1 glutamine-hydrolyzing asparagine synthase [Mimivirus AB-566-O17]	54.3	70	32	0	3	212	328	397	9.8e-17	86.3
+2TBY5:01678:02657	YP_009001498.1 putative ATP-binding cassette transporter [Anomala cuprea entomopoxvirus]	41.2	131	53	5	436	50	587	695	8.2e-15	80.9
+2TBY5:01727:02820	YP_009174690.1 putative PhoH-like protein [Yellowstone lake phycodnavirus 1]	46.6	88	45	2	105	365	2	88	3.4e-14	78.6
+2TBY5:01754:01226	AUS94804.1 envelope glycoprotein J [Equid alphaherpesvirus 8]	42.3	78	43	2	269	42	309	386	2.6e-08	58.9
+2TBY5:01907:03000	SOB74223.1 adenylosuccinate synthetase [Cedratvirus lausannensis]	53.8	78	34	1	42	269	7	84	9.1e-16	83.2

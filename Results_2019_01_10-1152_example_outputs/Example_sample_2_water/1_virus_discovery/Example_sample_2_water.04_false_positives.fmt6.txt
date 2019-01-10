@@ -1,0 +1,15 @@
+2TBY5:00093:02135	AAN04366.1 glycine hydroxymethyltransferase [Heliothis zea nudivirus]	48.0	125	61	1	38	400	5	129	8.1e-27	120.6
+2TBY5:00121:01778	YP_009173653.1 DNA-directed RNA polymerase II, subunit RpB1 [Chrysochromulina ericina virus]	60.5	38	15	0	116	3	312	349	6.9e-06	49.3
+2TBY5:00156:01093	YP_002333624.1 recombinase [Abalone shriveling syndrome-associated virus]	37.1	62	39	0	1	186	34	95	9.2e-06	49.7
+2TBY5:00495:01244	YP_009329619.1 Kelch repeat and BTB domain-containing protein A55 [BeAn 58058 virus]	85.7	21	3	0	21	83	275	295	5.4e-05	45.8
+2TBY5:00490:02981	AEX61495.1 DNA-directed RNA polymerase subunit 1 [Megavirus courdo7]	28.2	117	62	3	338	48	746	860	7.8e-06	50.8
+2TBY5:00750:02735	YP_009448213.1 3'5'-cyclic nucleotide phosphodiesterase [Orpheovirus IHUMI-LCC2]	51.7	87	34	3	76	318	5	89	8.8e-14	77.0
+2TBY5:00843:01492	AET42504.1 hypothetical protein [Emiliania huxleyi virus 202]	33.0	100	63	2	1	291	22	120	2.5e-07	55.5
+2TBY5:00884:01897	YP_007354211.1 hypothetical protein [Acanthamoeba polyphaga moumouvirus M10A]	45.6	57	31	0	3	173	353	409	1e-08	59.3
+2TBY5:01014:02202	YP_008438720.1 adenosylhomocysteinase [Pandoravirus salinus]	34.4	93	50	2	9	287	241	322	4.6e-06	51.2
+2TBY5:01184:02730	YP_009448535.1 Isoleucyl-tRNA synthetase [Orpheovirus IHUMI-LCC2]	48.8	86	44	0	259	2	412	497	5.4e-22	104.0
+2TBY5:01187:02714	BAD00047.1 Fusion protein, Feo [Hepacivirus C]	42.9	49	28	0	15	161	409	457	1.6e-05	48.5
+2TBY5:01297:01705	AGE59860.1 hypothetical protein [Acanthocystis turfacea Chlorella virus TN603.4.2]	41.0	78	39	3	278	57	96	170	8.1e-06	50.4
+2TBY5:01421:01626	AGE55786.1 glucosamine--fructose-6-phosphate aminotransferase [Acanthocystis turfacea Chlorella virus MN0810.1]	38.6	57	35	0	28	198	1	57	4.7e-06	50.4
+2TBY5:01490:00806	YP_009325851.1 CTP synthetase [Only Syngen Nebraska virus 5]	77.4	53	12	0	3	161	40	92	3.7e-18	91.3
+2TBY5:01689:02960	YP_007673261.1 replicative DNA helicase [Tetraselmis viridis virus S20]	42.9	98	42	2	1	252	377	474	1e-13	76.6

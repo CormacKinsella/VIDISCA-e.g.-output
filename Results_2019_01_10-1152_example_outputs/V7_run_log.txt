@@ -1,0 +1,98 @@
+
+Virus Discovery Analysis
+
+Start time and date:
+Thu Jan 10 11:44:28 CET 2019
+
+User:
+kinsella
+
+
+Checking .fa, .fas, and .fna extensions:
+No .fas found
+No .fa found
+No .fna found
+
+Number of fasta files:
+2
+
+First file name:
+Example_sample_1_UTM.fasta
+
+
+
+Start Sort Me RNA on all reads
+Thu Jan 10 11:44:28 CET 2019
+
+Start CD-HIT on non-rRNA
+Thu Jan 10 11:44:43 CET 2019
+
+Start Eukaryotic Virus UBLAST on representative non-rRNA sequences
+Thu Jan 10 11:44:44 CET 2019
+
+Start Prokaryotic Virus UBLAST on remaining representative non-rRNA sequences
+Thu Jan 10 11:46:23 CET 2019
+
+Start BLASTn on representative putative eukaryotic virus reads
+Thu Jan 10 11:46:47 CET 2019
+
+Start post processing
+Thu Jan 10 11:51:58 CET 2019
+
+
+
+Sample details report:
+
+sample_name
+Example_sample_1_UTM
+Example_sample_2_water
+
+raw_read_count
+5202
+3886
+
+unclassified_by_centrifuge_count
+1806
+1480
+
+raw_rRNA_count
+468
+835
+
+raw_non_rRNA_count
+4734
+3051
+
+non_rRNA_rep_seqs_post_clustering_count
+3935
+2694
+
+mito_DNA_rep_seq_count
+2
+45
+
+phage_rep_seq_count
+94
+65
+
+raw_putative_euk_vir_rep_seq_count
+76
+95
+
+false_positive_rep_seq_count
+24
+15
+
+confident_virus_rep_seq_count
+38
+69
+
+aa_virus_rep_seq_count
+14
+11
+
+
+
+End date and time:
+2019_01_10-1152
+

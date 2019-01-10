@@ -1,0 +1,11 @@
+2TBY5:00090:01037	AGC25937.1 hypothetical protein, partial [Piper DNA virus 1]	45.0	80	44	0	242	3	1025	1104	1.6e-15	82.4
+2TBY5:00206:01778	CBZ06032.1 Maverick capsid-like p31.10 [Cotesia congregata bracovirus]_invertebrate_derived	64.4	87	29	2	260	3	1	86	4.7e-26	117.5
+2TBY5:00274:01267	YP_009226241.1 hypothetical protein [Sulfolobus monocaudavirus SMV3]	48.2	110	35	4	268	5	86	195	1.9e-09	62.4
+2TBY5:00285:02697	YP_009001225.1 ABC2 type transporter superfamily protein [Pithovirus sibericum]	36.6	82	46	4	273	40	194	273	3.2e-06	52.0
+2TBY5:00563:01766	YP_004940123.1 uracil-DNA glycosylase [Aotine betaherpesvirus 1]	46.6	58	31	0	1	174	153	210	1.9e-10	65.1
+2TBY5:00609:01414	AHA54204.1 hypothetical protein [Emiliania huxleyi virus 18]	56.0	50	19	1	97	237	95	144	1e-10	66.6
+2TBY5:01074:01052	AGF85453.1 hypothetical protein [Moumouvirus goulette]	41.4	70	39	1	4	213	314	381	3.8e-08	57.8
+2TBY5:01530:01111	YP_009133212.1 rr1 [Lambdina fiscellaria nucleopolyhedrovirus]	35.1	57	37	0	173	3	271	327	3e-05	47.8
+2TBY5:01655:00731	YP_009408000.1 Ribonucleotide reductase large subunit [Eptesipox virus]	52.7	91	43	0	275	3	58	148	6.2e-24	110.5
+2TBY5:01657:01619	AAT99858.1 unknown [Diachasmimorpha longicaudata entomopoxvirus]	41.9	62	35	1	21	203	298	359	3.2e-08	58.5
+2TBY5:01915:02708	YP_009052284.1 putative phosphate starvation-inducible protein PhoH [Aureococcus anophagefferens virus]	38.9	54	33	0	9	170	110	163	7.1e-07	53.1
